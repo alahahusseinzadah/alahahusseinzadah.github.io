@@ -1,6 +1,41 @@
 @charset "UTF-8";
 /* CSS Document */
 
+
+
 body {
-	background-color: blue
+	background-image: url("../media/image/bg.jpg")	
+
 }
+
+.container1 {
+	border-bottom-style: solid;
+	border-bottom-left-radius: 10px;
+	border-top-style: solid; 
+
+}
+
+
+.navcenter {
+	border-style: solid;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	font-size: 30px;
+	border-color: black;
+	
+}
+
+.container-quote {	
+ 	padding-left: 45%;
+	padding-top: 30px;
+}
+     
+flex-container .center-line {
+	border-left: 5px solid black; 
+	height: 200px; 
+	padding-left: 50%;
+}
+
+
