@@ -9,18 +9,12 @@ body {
 }
 
 @font-face {
-  font-family: 'Biro';
-  src: url(""../fonts/biro_script/Biro_Script_reduced.otf"") format("opentype"); }
+  font-family: 'Autography';
+  src: url("../fonts/autography/Autography.otf") format("opentype"); }
+
 @font-face {
   font-family: 'Creato';
-  src: url(""../fonts/creato_display/CreatoDisplay-Light.otf"") format("opentype"); }
-
-.container1 {
-	border-bottom-style: solid;
-	border-bottom-left-radius: 10px;
-	border-top-style: solid; 
-
-}
+  src: url("../fonts/creato_display/CreatoDisplay-Light.otf") format("opentype"); }
 
 
 .navcenter {
@@ -45,9 +39,18 @@ flex-container .center-line {
 	padding-left: 50%;
 }
 
-.essaybody {
+p, h2 {
     font-family: 'Creato', sans-serif;
     font-size: 30px;
 	padding: 5%}
+
+h1, h3, h4, h5, h6 {
+	font-family: 'Autography', sans-serif;
+	font-size: 300%;
+}
+
+.dottedborder {
+	border-style: dotted none dotted none;
+}
 
 
