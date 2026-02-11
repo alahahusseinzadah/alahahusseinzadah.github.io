@@ -4,7 +4,7 @@
 
 
 body {
-	background-image: url("../media/image/bg.jpg")	
+	background-color: #ffffff} 	
 
 }
 
@@ -45,8 +45,9 @@ flex-container .center-line {
 	padding-left: 50%;
 }
 
-essaybody {
+.essaybody {
     font-family: 'Creato', sans-serif;
-    font-size: 30px; }
+    font-size: 30px;
+	padding: 5%}
 
 
