@@ -8,6 +8,13 @@ body {
 
 }
 
+@font-face {
+  font-family: 'Biro';
+  src: url(""../fonts/biro_script/Biro_Script_reduced.otf"") format("opentype"); }
+@font-face {
+  font-family: 'Creato';
+  src: url(""../fonts/creato_display/CreatoDisplay-Light.otf"") format("opentype"); }
+
 .container1 {
 	border-bottom-style: solid;
 	border-bottom-left-radius: 10px;
@@ -37,5 +44,9 @@ flex-container .center-line {
 	height: 200px; 
 	padding-left: 50%;
 }
+
+essaybody {
+    font-family: 'Creato', sans-serif;
+    font-size: 30px; }
 
 
