@@ -1,0 +1,444 @@
+// Scss Document
+
+@charset "UTF-8";
+
+/* 
+The Librettists Who Wrote on Air
+CMCT 6535: Digital Publication
+Winter 2026
+Author: AlAHA Husseinzadah
+
+Webtext Stylesheet
+*/
+
+/* div {
+			border: 2px solid black;
+		} */
+
+
+// Colour Palette
+// White
+$bg-colour-white: #ffffff;
+// Medium Pink
+$bg-colour-mdpink: #efd3e7;
+// Light Pink
+$bg-colour-ltpink: #f6e0f0;
+// Light Green
+$bg-colour-ltgreen: #e4e8c7; 
+// Medium Green
+$bg-colour-mdgreen: #abccac; 
+// Mint Green
+$bg-colour-mintgreen: #abccac; 
+
+//Chimamanda Ngozi Adichie Quote
+@mixin CNAquote2000() {
+	 	font-size: 25px;
+		padding-left: 45%;
+		padding-top: 30px;
+}
+
+@mixin CNAquote1100() {
+	 	font-size: 20px;
+		padding-left: 45%;
+		padding-top: 30px;
+}
+
+@mixin CNAquote991() {
+	 	font-size: 18px;
+		padding-left: 45%;
+		padding-top: 10px;
+}
+
+@mixin CNAquote767() {
+	 	font-size: 15px;
+		padding-left: 45%;
+		padding-top: 30px;
+}
+
+@mixin CNAquote375() {
+	 	font-size: 10px;
+		padding-left: 45%;
+		padding-top: 30px;
+}
+
+
+//Index Essay Title
+@mixin IET2000() {
+	 	font-size: 100px;
+}
+
+@mixin IET1100() {
+	 	font-size: 80px;
+
+}
+
+@mixin IET991() {
+	 	font-size: 60px;
+}
+
+@mixin IET767() {
+	 	font-size: 40px;
+}
+
+@mixin IET375() {
+	 	font-size: 20px;
+}
+
+//Essay Title
+@mixin ET2000() {
+	 	font-size: 100px;
+}
+
+@mixin ET1100() {
+	 	font-size: 80px;
+
+}
+
+@mixin ET991() {
+	 	font-size: 60px;
+}
+
+@mixin ET767() {
+	 	font-size: 40px;
+}
+
+@mixin ET375() {
+	 	font-size: 20px;
+}
+	
+
+//Nav homepage
+@mixin n2000() {
+	 	font-size: 35px;
+		width: 35%;
+		border: solid;
+		margin-left: 32%;
+		margin-right: 32%;	
+}
+
+@mixin n1100() {
+	 	font-size: 27px;
+		width: 35%;
+		border: solid;
+		margin-left: 32%;
+		margin-right: 32%;
+
+}
+
+@mixin n991() {
+	 	font-size: 25px;
+		width: 35%;
+		border: solid;
+		margin-left: 32%;
+		margin-right: 32%;
+}
+
+
+@mixin n767() {
+	 	font-size: 21px;
+		display: block;
+ 		margin-left: 32%;
+		margin-right: 32%;
+		width: 35%;
+		border: solid;
+}
+
+@mixin n375() {
+	 	font-size: 19px;
+		display: block;
+		margin-left: 25%;
+		margin-right: 25%;
+		border: solid;
+}
+
+@mixin nb375() {
+	margin-left: 42%;
+}
+
+//Nav bar homepage
+@mixin navlinkssub2000() {
+	 	font-size: 5px;
+		border: solid;
+	
+}
+
+@mixin navlinkssub1100() {
+	 	font-size: 5px;
+		border: solid;
+
+
+}
+
+@mixin navlinkssub991() {
+	 	font-size: 5px;
+		border: solid;
+
+}
+
+
+@mixin navlinkssub767() {
+	 	font-size: 5px;
+		border: solid;
+
+}
+
+@mixin navlinkssub375() {
+	 	font-size: 8px;
+		border: solid;
+}
+
+@mixin navsub375() {
+	margin-top: 42%;
+}
+
+@mixin responsive($maxWidth) {
+    @media only screen and (max-width: $maxWidth) {
+        @content;
+    }
+}
+
+
+//Fonts
+//Headers fonts
+@font-face {
+  font-family: 'Autography';
+  src: url("../fonts/autography/Autography.otf") format("opentype"); }
+
+@font-face {
+  font-family: 'Biro';
+  src: url("../fonts/biro_script/Biro_Script_reduced.otf") format("opentype"); }
+
+@font-face {
+  font-family: 'Creato';
+	src: url("../fonts/creato_display/CreatoDisplay-Light.otf") format("opentype");}
+	
+@font-face {
+  font-family: 'Shorelines';
+  src: url("../fonts/shorelines_script/Shorelines Script Bold.otf") format("opentype"); }
+
+//Body fonts
+@font-face {
+  font-family: 'ComfortaLight';
+  src: url("../fonts/comfortaa/Comfortaa-Light.ttf") format("opentype"); }
+
+@font-face {
+  font-family: 'Jordan';
+  src: url("../fonts/kg_teacher_jordan/KGTeacherJordan.otf") format("opentype"); }
+
+@font-face {
+  font-family: 'Quicksand';
+  src: url("../fonts/quicksand/Quicksand_Light.otf") format("opentype"); }
+
+
+@font-face {
+  font-family: 'Tropical';
+  src: url("../fonts/tropical_avenue/Tropical Avenue Personal Use Only.ttf") format("opentype"); }
+	
+
+p, h2 {
+    font-family: 'Creato', sans-serif;
+    font-size: 30px;
+}
+
+h1, h3, h4, h5, h6 {
+	font-family: 'Autography', sans-serif;
+}
+
+//Index page
+
+#index {
+	background-color: $bg-colour-ltpink;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+	.container-quote {	
+		font-family: 'Creato', sans-serif;
+
+				@include responsive(2000px) {
+					@include CNAquote2000();
+			}
+
+				@include responsive(1100px) {
+					@include CNAquote1100();
+			}
+
+			@include responsive(991px) {
+				@include CNAquote991();
+			}
+
+			@include responsive(767px) {
+				@include CNAquote767();
+			}
+
+			@include responsive(375px) {
+				@include CNAquote375();
+
+			}
+	}
+
+	.dottedborder {
+		border-style: dotted none dotted none;
+		text-align: center;
+		font-family: 'Autography', sans-serif;
+
+
+		@include responsive(2000px) {
+			@include IET2000();
+			}
+
+			@include responsive(1100px) {
+				@include IET1100();
+			}
+
+			@include responsive(991px) {
+				@include IET991();
+			}
+
+			@include responsive(767px) {
+				@include IET767();
+			}
+
+			@include responsive(375px) {
+				@include IET375();
+
+			}
+	}
+
+
+
+
+	.navessay, .navsm, .navcitations, .navauthor {
+		font-family: 'Creato', sans-serif;
+		text-align: center;
+		justify-content: center;
+		
+		
+		@include responsive(2000px) {
+			@include n2000();
+		}
+			
+			@include responsive(1100px) {
+				@include n1100();
+		}
+
+		@include responsive(991px) {
+			@include n991();
+		}
+	
+		@include responsive(767px) {
+			@include n767();
+		}
+
+		@include responsive(375px) {
+			@include n375();
+		}
+	}
+
+
+
+	.vl {
+		border-left: 6px solid #000000;
+		height: 50px;	
+		margin-left: 50%;
+
+		@include responsive(375px) {
+			@include nb375();
+			}
+		}
+
+		
+		
+			
+
+
+
+	
+//Essay page
+
+#Essay {
+	background-color: $bg-colour-ltgreen;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+	.essaypagetitle {
+		font-family: 'Autography', sans-serif;
+		text-align: center;
+
+		@include responsive(2000px) {
+			@include ET2000();
+			}
+
+			@include responsive(1100px) {
+				@include ET1100();
+			}
+
+			@include responsive(991px) {
+				@include ET991();
+			}
+
+			@include responsive(767px) {
+				@include ET767() 
+			}
+
+			@include responsive(375px) {
+				@include ET375() 
+
+			}
+}
+
+//Citations page
+
+#citations  {
+	background-color: $bg-colour-mdgreen;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+	.citationstitle {
+		font-family: 'Autography', sans-serif;
+		text-align: center;
+
+		@include responsive(2000px) {
+			@include ET2000();
+			}
+
+			@include responsive(1100px) {
+				@include ET1100();
+			}
+
+			@include responsive(991px) {
+				@include ET991();
+			}
+
+			@include responsive(767px) {
+				@include ET767() 
+			}
+
+			@include responsive(375px) {
+				@include ET375() 
+
+			}
+}
+
+
+//Navigation Subpages 
+
+#citations .nav{
+
+
+}
+	#citations .navessay, .navsm, .navcitations, .navauthor {
+		font-family: 'Creato', sans-serif;
+		text-align: center;
+
+		float:left
+}
+
+
+	.hr {
+		border-top: 6px solid #000000;
+		width: 50px;	
+		display: inline-flex;
+}
