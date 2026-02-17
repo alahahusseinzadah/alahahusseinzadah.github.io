@@ -1,56 +1,242 @@
-@charset "UTF-8";
-/* CSS Document */
+/* 
+The Librettists Who Wrote on Air
+CMCT 6535: Digital Publication
+Winter 2026
+Author: AlAHA Husseinzadah
 
-
-
-body {
-	background-color: #ffffff} 	
-
-}
-
+Webtext Stylesheet
+*/
+/* div {
+			border: 2px solid black;
+		} */
 @font-face {
   font-family: 'Autography';
   src: url("../fonts/autography/Autography.otf") format("opentype"); }
-
+@font-face {
+  font-family: 'Biro';
+  src: url("../fonts/biro_script/Biro_Script_reduced.otf") format("opentype"); }
 @font-face {
   font-family: 'Creato';
   src: url("../fonts/creato_display/CreatoDisplay-Light.otf") format("opentype"); }
-
-
-.navcenter {
-	border-style: solid;
-	padding-bottom: 5px;
-	padding-left: 5px;
-	padding-right: 5px;
-	padding-top: 5px;
-	font-size: 30px;
-	border-color: black;
-	
-}
-
-.container-quote {	
- 	padding-left: 45%;
-	padding-top: 30px;
-}
-     
-flex-container .center-line {
-	border-left: 5px solid black; 
-	height: 200px; 
-	padding-left: 50%;
-}
-
+@font-face {
+  font-family: 'Shorelines';
+  src: url("../fonts/shorelines_script/Shorelines Script Bold.otf") format("opentype"); }
+@font-face {
+  font-family: 'ComfortaLight';
+  src: url("../fonts/comfortaa/Comfortaa-Light.ttf") format("opentype"); }
+@font-face {
+  font-family: 'Jordan';
+  src: url("../fonts/kg_teacher_jordan/KGTeacherJordan.otf") format("opentype"); }
+@font-face {
+  font-family: 'Quicksand';
+  src: url("../fonts/quicksand/Quicksand_Light.otf") format("opentype"); }
+@font-face {
+  font-family: 'Tropical';
+  src: url("../fonts/tropical_avenue/Tropical Avenue Personal Use Only.ttf") format("opentype"); }
+/* line 238, ../scss/app.scss */
 p, h2 {
-    font-family: 'Creato', sans-serif;
-    font-size: 30px;
-	padding: 5%}
+  font-family: 'Creato', sans-serif;
+  font-size: 30px; }
 
+/* line 243, ../scss/app.scss */
 h1, h3, h4, h5, h6 {
-	font-family: 'Autography', sans-serif;
-	font-size: 300%;
-}
+  font-family: 'Autography', sans-serif; }
 
+/* line 249, ../scss/app.scss */
+#index {
+  background-color: #f6e0f0;
+  margin-left: 10%;
+  margin-right: 10%; }
+
+/* line 255, ../scss/app.scss */
+.container-quote {
+  font-family: 'Creato', sans-serif; }
+  @media only screen and (max-width: 2000px) {
+    /* line 255, ../scss/app.scss */
+    .container-quote {
+      font-size: 25px;
+      padding-left: 45%;
+      padding-top: 30px; } }
+  @media only screen and (max-width: 1100px) {
+    /* line 255, ../scss/app.scss */
+    .container-quote {
+      font-size: 20px;
+      padding-left: 45%;
+      padding-top: 30px; } }
+  @media only screen and (max-width: 991px) {
+    /* line 255, ../scss/app.scss */
+    .container-quote {
+      font-size: 18px;
+      padding-left: 45%;
+      padding-top: 10px; } }
+  @media only screen and (max-width: 767px) {
+    /* line 255, ../scss/app.scss */
+    .container-quote {
+      font-size: 15px;
+      padding-left: 45%;
+      padding-top: 30px; } }
+  @media only screen and (max-width: 375px) {
+    /* line 255, ../scss/app.scss */
+    .container-quote {
+      font-size: 10px;
+      padding-left: 45%;
+      padding-top: 30px; } }
+
+/* line 280, ../scss/app.scss */
 .dottedborder {
-	border-style: dotted none dotted none;
-}
+  border-style: dotted none dotted none;
+  text-align: center;
+  font-family: 'Autography', sans-serif; }
+  @media only screen and (max-width: 2000px) {
+    /* line 280, ../scss/app.scss */
+    .dottedborder {
+      font-size: 100px; } }
+  @media only screen and (max-width: 1100px) {
+    /* line 280, ../scss/app.scss */
+    .dottedborder {
+      font-size: 80px; } }
+  @media only screen and (max-width: 991px) {
+    /* line 280, ../scss/app.scss */
+    .dottedborder {
+      font-size: 60px; } }
+  @media only screen and (max-width: 767px) {
+    /* line 280, ../scss/app.scss */
+    .dottedborder {
+      font-size: 40px; } }
+  @media only screen and (max-width: 375px) {
+    /* line 280, ../scss/app.scss */
+    .dottedborder {
+      font-size: 20px; } }
 
+/* line 311, ../scss/app.scss */
+.navessay, .navsm, .navcitations, .navauthor {
+  font-family: 'Creato', sans-serif;
+  text-align: center;
+  justify-content: center; }
+  @media only screen and (max-width: 2000px) {
+    /* line 311, ../scss/app.scss */
+    .navessay, .navsm, .navcitations, .navauthor {
+      font-size: 35px;
+      width: 35%;
+      border: solid;
+      margin-left: 32%;
+      margin-right: 32%; } }
+  @media only screen and (max-width: 1100px) {
+    /* line 311, ../scss/app.scss */
+    .navessay, .navsm, .navcitations, .navauthor {
+      font-size: 27px;
+      width: 35%;
+      border: solid;
+      margin-left: 32%;
+      margin-right: 32%; } }
+  @media only screen and (max-width: 991px) {
+    /* line 311, ../scss/app.scss */
+    .navessay, .navsm, .navcitations, .navauthor {
+      font-size: 25px;
+      width: 35%;
+      border: solid;
+      margin-left: 32%;
+      margin-right: 32%; } }
+  @media only screen and (max-width: 767px) {
+    /* line 311, ../scss/app.scss */
+    .navessay, .navsm, .navcitations, .navauthor {
+      font-size: 21px;
+      display: block;
+      margin-left: 32%;
+      margin-right: 32%;
+      width: 35%;
+      border: solid; } }
+  @media only screen and (max-width: 375px) {
+    /* line 311, ../scss/app.scss */
+    .navessay, .navsm, .navcitations, .navauthor {
+      font-size: 19px;
+      display: block;
+      margin-left: 25%;
+      margin-right: 25%;
+      border: solid; } }
 
+/* line 340, ../scss/app.scss */
+.vl {
+  border-left: 6px solid #000000;
+  height: 50px;
+  margin-left: 50%; }
+  @media only screen and (max-width: 375px) {
+    /* line 340, ../scss/app.scss */
+    .vl {
+      margin-left: 42%; } }
+
+/* line 359, ../scss/app.scss */
+#Essay {
+  background-color: #e4e8c7;
+  margin-left: 10%;
+  margin-right: 10%; }
+
+/* line 365, ../scss/app.scss */
+.essaypagetitle {
+  font-family: 'Autography', sans-serif;
+  text-align: center; }
+  @media only screen and (max-width: 2000px) {
+    /* line 365, ../scss/app.scss */
+    .essaypagetitle {
+      font-size: 100px; } }
+  @media only screen and (max-width: 1100px) {
+    /* line 365, ../scss/app.scss */
+    .essaypagetitle {
+      font-size: 80px; } }
+  @media only screen and (max-width: 991px) {
+    /* line 365, ../scss/app.scss */
+    .essaypagetitle {
+      font-size: 60px; } }
+  @media only screen and (max-width: 767px) {
+    /* line 365, ../scss/app.scss */
+    .essaypagetitle {
+      font-size: 40px; } }
+  @media only screen and (max-width: 375px) {
+    /* line 365, ../scss/app.scss */
+    .essaypagetitle {
+      font-size: 20px; } }
+
+/* line 393, ../scss/app.scss */
+#citations {
+  background-color: #abccac;
+  margin-left: 10%;
+  margin-right: 10%; }
+
+/* line 399, ../scss/app.scss */
+.citationstitle {
+  font-family: 'Autography', sans-serif;
+  text-align: center; }
+  @media only screen and (max-width: 2000px) {
+    /* line 399, ../scss/app.scss */
+    .citationstitle {
+      font-size: 100px; } }
+  @media only screen and (max-width: 1100px) {
+    /* line 399, ../scss/app.scss */
+    .citationstitle {
+      font-size: 80px; } }
+  @media only screen and (max-width: 991px) {
+    /* line 399, ../scss/app.scss */
+    .citationstitle {
+      font-size: 60px; } }
+  @media only screen and (max-width: 767px) {
+    /* line 399, ../scss/app.scss */
+    .citationstitle {
+      font-size: 40px; } }
+  @media only screen and (max-width: 375px) {
+    /* line 399, ../scss/app.scss */
+    .citationstitle {
+      font-size: 20px; } }
+
+/* line 432, ../scss/app.scss */
+#citations .navessay, .navsm, .navcitations, .navauthor {
+  font-family: 'Creato', sans-serif;
+  text-align: center;
+  float: left; }
+
+/* line 440, ../scss/app.scss */
+.hr {
+  border-top: 6px solid #000000;
+  width: 50px;
+  display: inline-flex; }
+
+/*# sourceMappingURL=app.css.map */
