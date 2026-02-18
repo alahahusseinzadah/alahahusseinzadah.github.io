@@ -34,31 +34,26 @@ $bg-colour-mintgreen: #abccac;
 @mixin CNAquote2000() {
 	 	font-size: 25px;
 		padding-left: 45%;
-		padding-top: 30px;
 }
 
 @mixin CNAquote1100() {
 	 	font-size: 20px;
 		padding-left: 45%;
-		padding-top: 30px;
 }
 
 @mixin CNAquote991() {
 	 	font-size: 18px;
 		padding-left: 45%;
-		padding-top: 10px;
 }
 
 @mixin CNAquote767() {
 	 	font-size: 15px;
 		padding-left: 45%;
-		padding-top: 30px;
 }
 
 @mixin CNAquote375() {
 	 	font-size: 10px;
 		padding-left: 45%;
-		padding-top: 30px;
 }
 
 
@@ -128,7 +123,6 @@ $bg-colour-mintgreen: #abccac;
 @mixin n991() {
 	 	font-size: 25px;
 		width: 35%;
-		border: solid;
 		margin-left: 32%;
 		margin-right: 32%;
 }
@@ -136,59 +130,41 @@ $bg-colour-mintgreen: #abccac;
 
 @mixin n767() {
 	 	font-size: 21px;
-		display: block;
  		margin-left: 32%;
 		margin-right: 32%;
 		width: 35%;
-		border: solid;
 }
 
 @mixin n375() {
 	 	font-size: 19px;
-		display: block;
 		margin-left: 25%;
 		margin-right: 25%;
-		border: solid;
 }
 
 @mixin nb375() {
 	margin-left: 42%;
 }
 
-//Nav bar homepage
-@mixin navlinkssub2000() {
-	 	font-size: 5px;
-		border: solid;
-	
+//Nav bar subpage
+@mixin navbarsub2000() {
+	 	font-size: 40px;
 }
 
-@mixin navlinkssub1100() {
-	 	font-size: 5px;
-		border: solid;
-
-
+@mixin navbarsub1100() {
+	 	font-size: 35px;
 }
 
-@mixin navlinkssub991() {
-	 	font-size: 5px;
-		border: solid;
-
+@mixin navbarsub991 () {
+	 	font-size: 25px;
 }
 
 
-@mixin navlinkssub767() {
-	 	font-size: 5px;
-		border: solid;
-
+@mixin navbarsub767() {
+	 	font-size: 18px;
 }
 
-@mixin navlinkssub375() {
-	 	font-size: 8px;
-		border: solid;
-}
-
-@mixin navsub375() {
-	margin-top: 42%;
+@mixin navbarsub375() {
+	 	font-size: 10px;
 }
 
 @mixin responsive($maxWidth) {
@@ -244,12 +220,34 @@ h1, h3, h4, h5, h6 {
 	font-family: 'Autography', sans-serif;
 }
 
+ /* Unvisited link */
+  a:link {
+    color: black;
+  }
+
+ /* Visited link */
+  a:visited {
+    color: hotpink;
+  }
+
+ /* Mouse over link */
+  a:hover {
+    color: #e1ad01
+  }
+
+ /* Selected link */
+  a:active {
+    color: black;
+  }
+
 //Index page
 
 #index {
 	background-color: $bg-colour-ltpink;
 	margin-left: 10%;
 	margin-right: 10%;
+	margin-top: 5%;
+	margin-bottom: 5% 
 }
 
 	.container-quote {	
@@ -308,10 +306,11 @@ h1, h3, h4, h5, h6 {
 
 
 
-	.navessay, .navsm, .navcitations, .navauthor {
+	.navhome, .navessay, .navsm, .navcitations, .navauthor {
 		font-family: 'Creato', sans-serif;
 		text-align: center;
 		justify-content: center;
+		border: solid;
 		
 		
 		@include responsive(2000px) {
@@ -338,7 +337,7 @@ h1, h3, h4, h5, h6 {
 
 
 	.vl {
-		border-left: 6px solid #000000;
+		border-left: 3px solid #000000;
 		height: 50px;	
 		margin-left: 50%;
 
@@ -347,12 +346,6 @@ h1, h3, h4, h5, h6 {
 			}
 		}
 
-		
-		
-			
-
-
-
 	
 //Essay page
 
@@ -360,6 +353,8 @@ h1, h3, h4, h5, h6 {
 	background-color: $bg-colour-ltgreen;
 	margin-left: 10%;
 	margin-right: 10%;
+	margin-top: 5%;
+	margin-bottom: 5% 
 }
 
 	.essaypagetitle {
@@ -388,17 +383,22 @@ h1, h3, h4, h5, h6 {
 			}
 }
 
+
+
 //Citations page
 
 #citations  {
 	background-color: $bg-colour-mdgreen;
 	margin-left: 10%;
 	margin-right: 10%;
+	margin-top: 5%;
+	margin-bottom: 5% 
 }
 
 	.citationstitle {
 		font-family: 'Autography', sans-serif;
 		text-align: center;
+		margin-top: 25px;
 
 		@include responsive(2000px) {
 			@include ET2000();
@@ -423,22 +423,53 @@ h1, h3, h4, h5, h6 {
 }
 
 
+
 //Navigation Subpages 
-
-#citations .nav{
-
+.navsb{
+	display: flex;
+	justify-content: center;
+	align-items: center;
 
 }
-	#citations .navessay, .navsm, .navcitations, .navauthor {
+.navhomesp, .navessaysp, .navsmsp, .navauthorsp {
 		font-family: 'Creato', sans-serif;
 		text-align: center;
+		float:left;
+		border: solid;
+		width: 15%;
 
-		float:left
+	
+			@include responsive(2000px) {
+			@include navbarsub2000();
+			}
+
+			@include responsive(1100px) {
+				@include navbarsub1100();
+			}
+
+			@include responsive(991px) {
+				@include navbarsub991();
+			}
+
+			@include responsive(767px) {
+				@include navbarsub767() 
+			}
+
+			@include responsive(375px) {
+				@include navbarsub375() 
+
+			}
 }
 
 
 	.hr {
-		border-top: 6px solid #000000;
+		border-top: 3px solid #000000;
 		width: 50px;	
-		display: inline-flex;
+		display: flex;
+		float:left;
+		margin-top: 0.75%;
+
 }
+
+
+
