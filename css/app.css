@@ -33,106 +33,139 @@ Webtext Stylesheet
 @font-face {
   font-family: 'Tropical';
   src: url("../fonts/tropical_avenue/Tropical Avenue Personal Use Only.ttf") format("opentype"); }
-/* line 214, ../scss/app.scss */
+/* line 219, ../scss/app.scss */
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../media/image/bachabazi_bycodeincat-deviantart.jpg");
+  height: 50vh;
+  width: 100vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-top: calc(-100vw + 50%);
+  margin-left: calc(-50vw + 50%);
+  margin-right: calc(-50vw + 50%);
+  margin-top: 0;
+  padding: 0;
+  top: 0;
+  left: 0; }
+
+/* line 237, ../scss/app.scss */
+.hero-text {
+  text-align: left;
+  position: absolute;
+  bottom: 20px;
+  left: 30px;
+  color: hotpink;
+  font-size: 10px;
+  font-family: 'Creato', sans-serif; }
+
+/* line 248, ../scss/app.scss */
+#index, #Essay, #citations {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 5%; }
+
+/* line 254, ../scss/app.scss */
 p, h2 {
   font-family: 'Creato', sans-serif;
   font-size: 30px; }
 
-/* line 219, ../scss/app.scss */
-h1, h3, h4, h5, h6 {
+/* line 259, ../scss/app.scss */
+h1, h3, h4, h5 {
   font-family: 'Autography', sans-serif; }
 
+/* line 263, ../scss/app.scss */
+h6 {
+  font-family: 'Creato', sans-serif; }
+
 /* Unvisited link */
-/* line 224, ../scss/app.scss */
+/* line 268, ../scss/app.scss */
 a:link {
   color: black; }
 
 /* Visited link */
-/* line 229, ../scss/app.scss */
+/* line 273, ../scss/app.scss */
 a:visited {
   color: hotpink; }
 
 /* Mouse over link */
-/* line 234, ../scss/app.scss */
+/* line 278, ../scss/app.scss */
 a:hover {
   color: #e1ad01; }
 
 /* Selected link */
-/* line 239, ../scss/app.scss */
+/* line 283, ../scss/app.scss */
 a:active {
   color: black; }
 
-/* line 245, ../scss/app.scss */
+/* line 289, ../scss/app.scss */
 #index {
-  background-color: #f6e0f0;
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-top: 5%;
-  margin-bottom: 5%; }
+  background-color: #f6e0f0; }
 
-/* line 253, ../scss/app.scss */
+/* line 293, ../scss/app.scss */
 .container-quote {
   font-family: 'Creato', sans-serif; }
   @media only screen and (max-width: 2000px) {
-    /* line 253, ../scss/app.scss */
+    /* line 293, ../scss/app.scss */
     .container-quote {
       font-size: 25px;
       padding-left: 45%; } }
   @media only screen and (max-width: 1100px) {
-    /* line 253, ../scss/app.scss */
+    /* line 293, ../scss/app.scss */
     .container-quote {
       font-size: 20px;
       padding-left: 45%; } }
   @media only screen and (max-width: 991px) {
-    /* line 253, ../scss/app.scss */
+    /* line 293, ../scss/app.scss */
     .container-quote {
       font-size: 18px;
       padding-left: 45%; } }
   @media only screen and (max-width: 767px) {
-    /* line 253, ../scss/app.scss */
+    /* line 293, ../scss/app.scss */
     .container-quote {
       font-size: 15px;
       padding-left: 45%; } }
   @media only screen and (max-width: 375px) {
-    /* line 253, ../scss/app.scss */
+    /* line 293, ../scss/app.scss */
     .container-quote {
       font-size: 10px;
       padding-left: 45%; } }
 
-/* line 278, ../scss/app.scss */
+/* line 318, ../scss/app.scss */
 .dottedborder {
   border-style: dotted none dotted none;
   text-align: center;
   font-family: 'Autography', sans-serif; }
   @media only screen and (max-width: 2000px) {
-    /* line 278, ../scss/app.scss */
+    /* line 318, ../scss/app.scss */
     .dottedborder {
       font-size: 100px; } }
   @media only screen and (max-width: 1100px) {
-    /* line 278, ../scss/app.scss */
+    /* line 318, ../scss/app.scss */
     .dottedborder {
       font-size: 80px; } }
   @media only screen and (max-width: 991px) {
-    /* line 278, ../scss/app.scss */
+    /* line 318, ../scss/app.scss */
     .dottedborder {
       font-size: 60px; } }
   @media only screen and (max-width: 767px) {
-    /* line 278, ../scss/app.scss */
+    /* line 318, ../scss/app.scss */
     .dottedborder {
       font-size: 40px; } }
   @media only screen and (max-width: 375px) {
-    /* line 278, ../scss/app.scss */
+    /* line 318, ../scss/app.scss */
     .dottedborder {
       font-size: 20px; } }
 
-/* line 309, ../scss/app.scss */
+/* line 349, ../scss/app.scss */
 .navhome, .navessay, .navsm, .navcitations, .navauthor {
   font-family: 'Creato', sans-serif;
   text-align: center;
   justify-content: center;
   border: solid; }
   @media only screen and (max-width: 2000px) {
-    /* line 309, ../scss/app.scss */
+    /* line 349, ../scss/app.scss */
     .navhome, .navessay, .navsm, .navcitations, .navauthor {
       font-size: 35px;
       width: 35%;
@@ -140,7 +173,7 @@ a:active {
       margin-left: 32%;
       margin-right: 32%; } }
   @media only screen and (max-width: 1100px) {
-    /* line 309, ../scss/app.scss */
+    /* line 349, ../scss/app.scss */
     .navhome, .navessay, .navsm, .navcitations, .navauthor {
       font-size: 27px;
       width: 35%;
@@ -148,110 +181,103 @@ a:active {
       margin-left: 32%;
       margin-right: 32%; } }
   @media only screen and (max-width: 991px) {
-    /* line 309, ../scss/app.scss */
+    /* line 349, ../scss/app.scss */
     .navhome, .navessay, .navsm, .navcitations, .navauthor {
       font-size: 25px;
       width: 35%;
       margin-left: 32%;
       margin-right: 32%; } }
   @media only screen and (max-width: 767px) {
-    /* line 309, ../scss/app.scss */
+    /* line 349, ../scss/app.scss */
     .navhome, .navessay, .navsm, .navcitations, .navauthor {
       font-size: 21px;
       margin-left: 32%;
       margin-right: 32%;
       width: 35%; } }
   @media only screen and (max-width: 375px) {
-    /* line 309, ../scss/app.scss */
+    /* line 349, ../scss/app.scss */
     .navhome, .navessay, .navsm, .navcitations, .navauthor {
       font-size: 19px;
       margin-left: 25%;
       margin-right: 25%; } }
 
-/* line 339, ../scss/app.scss */
+/* line 379, ../scss/app.scss */
 .vl {
   border-left: 3px solid #000000;
   height: 50px;
   margin-left: 50%; }
   @media only screen and (max-width: 375px) {
-    /* line 339, ../scss/app.scss */
+    /* line 379, ../scss/app.scss */
     .vl {
       margin-left: 42%; } }
 
-/* line 352, ../scss/app.scss */
+/* line 392, ../scss/app.scss */
 #Essay {
-  background-color: #e4e8c7;
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-top: 5%;
-  margin-bottom: 5%; }
+  background-color: #e4e8c7; }
 
-/* line 360, ../scss/app.scss */
+/* line 396, ../scss/app.scss */
 .essaypagetitle {
   font-family: 'Autography', sans-serif;
-  text-align: center; }
+  text-align: center;
+  margin-top: 25px; }
   @media only screen and (max-width: 2000px) {
-    /* line 360, ../scss/app.scss */
+    /* line 396, ../scss/app.scss */
     .essaypagetitle {
       font-size: 100px; } }
   @media only screen and (max-width: 1100px) {
-    /* line 360, ../scss/app.scss */
+    /* line 396, ../scss/app.scss */
     .essaypagetitle {
       font-size: 80px; } }
   @media only screen and (max-width: 991px) {
-    /* line 360, ../scss/app.scss */
+    /* line 396, ../scss/app.scss */
     .essaypagetitle {
       font-size: 60px; } }
   @media only screen and (max-width: 767px) {
-    /* line 360, ../scss/app.scss */
+    /* line 396, ../scss/app.scss */
     .essaypagetitle {
       font-size: 40px; } }
   @media only screen and (max-width: 375px) {
-    /* line 360, ../scss/app.scss */
+    /* line 396, ../scss/app.scss */
     .essaypagetitle {
       font-size: 20px; } }
 
-/* line 390, ../scss/app.scss */
+/* line 427, ../scss/app.scss */
 #citations {
-  background-color: #abccac;
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-top: 5%;
-  margin-bottom: 5%; }
+  background-color: #abccac; }
 
-/* line 398, ../scss/app.scss */
+/* line 431, ../scss/app.scss */
 .citationstitle {
   font-family: 'Autography', sans-serif;
   text-align: center;
   margin-top: 25px; }
   @media only screen and (max-width: 2000px) {
-    /* line 398, ../scss/app.scss */
+    /* line 431, ../scss/app.scss */
     .citationstitle {
       font-size: 100px; } }
   @media only screen and (max-width: 1100px) {
-    /* line 398, ../scss/app.scss */
+    /* line 431, ../scss/app.scss */
     .citationstitle {
       font-size: 80px; } }
   @media only screen and (max-width: 991px) {
-    /* line 398, ../scss/app.scss */
+    /* line 431, ../scss/app.scss */
     .citationstitle {
       font-size: 60px; } }
   @media only screen and (max-width: 767px) {
-    /* line 398, ../scss/app.scss */
+    /* line 431, ../scss/app.scss */
     .citationstitle {
       font-size: 40px; } }
   @media only screen and (max-width: 375px) {
-    /* line 398, ../scss/app.scss */
+    /* line 431, ../scss/app.scss */
     .citationstitle {
       font-size: 20px; } }
 
-/* line 428, ../scss/app.scss */
-.navsb {
+/* line 461, ../scss/app.scss */
+#navsb {
   display: flex;
   justify-content: center;
   align-items: center; }
 
-/* line 434, ../scss/app.scss */
+/* line 467, ../scss/app.scss */
 .navhomesp, .navessaysp, .navsmsp, .navauthorsp, .navcitationssp {
   font-family: 'Creato', sans-serif;
   text-align: center;
@@ -259,29 +285,29 @@ a:active {
   border: solid;
   width: 15%; }
   @media only screen and (max-width: 2000px) {
-    /* line 434, ../scss/app.scss */
+    /* line 467, ../scss/app.scss */
     .navhomesp, .navessaysp, .navsmsp, .navauthorsp, .navcitationssp {
       font-size: 40px; } }
   @media only screen and (max-width: 1100px) {
-    /* line 434, ../scss/app.scss */
+    /* line 467, ../scss/app.scss */
     .navhomesp, .navessaysp, .navsmsp, .navauthorsp, .navcitationssp {
       font-size: 35px; } }
   @media only screen and (max-width: 991px) {
-    /* line 434, ../scss/app.scss */
+    /* line 467, ../scss/app.scss */
     .navhomesp, .navessaysp, .navsmsp, .navauthorsp, .navcitationssp {
       font-size: 25px; } }
   @media only screen and (max-width: 767px) {
-    /* line 434, ../scss/app.scss */
+    /* line 467, ../scss/app.scss */
     .navhomesp, .navessaysp, .navsmsp, .navauthorsp, .navcitationssp {
       font-size: 18px; } }
   @media only screen and (max-width: 375px) {
-    /* line 434, ../scss/app.scss */
+    /* line 467, ../scss/app.scss */
     .navhomesp, .navessaysp, .navsmsp, .navauthorsp, .navcitationssp {
       font-size: 10px; } }
 
-/* line 465, ../scss/app.scss */
+/* line 498, ../scss/app.scss */
 .hr {
-  border-top: 3px solid #000000;
+  border-top: 3px solid hotpink;
   width: 50px;
   display: flex;
   float: left;
