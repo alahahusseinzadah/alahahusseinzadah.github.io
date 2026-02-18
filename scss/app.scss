@@ -30,6 +30,11 @@ $bg-colour-mdgreen: #abccac;
 // Mint Green
 $bg-colour-mintgreen: #abccac; 
 
+// Background Images
+@mixin backgroundimgbachabazi() {
+	background-image: url("../media/image/bachabazi_bycodeincat-deviantart.jpg");
+}
+
 //Chimamanda Ngozi Adichie Quote
 @mixin CNAquote2000() {
 	 	font-size: 25px;
@@ -209,17 +214,56 @@ $bg-colour-mintgreen: #abccac;
 @font-face {
   font-family: 'Tropical';
   src: url("../fonts/tropical_avenue/Tropical Avenue Personal Use Only.ttf") format("opentype"); }
-	
 
+
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../media/image/bachabazi_bycodeincat-deviantart.jpg");
+    height: 50vh;
+    width: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+	margin-top: calc(-100vw + 50%);
+    margin-left: calc(-50vw + 50%);
+    margin-right: calc(-50vw + 50%);
+    margin-top: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+}
+
+
+.hero-text {
+    text-align: left;
+    position: absolute;
+    bottom: 20px;
+    left: 30px;
+    color: hotpink;
+	font-size: 10px;
+	font-family: 'Creato', sans-serif;
+}
+
+
+#index, #Essay, #citations {
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-bottom: 5% 
+}
+ 
 p, h2 {
     font-family: 'Creato', sans-serif;
     font-size: 30px;
 }
 
-h1, h3, h4, h5, h6 {
+h1, h3, h4, h5,  {
 	font-family: 'Autography', sans-serif;
 }
 
+h6 {
+	font-family: 'Creato', sans-serif;
+ 
+}
  /* Unvisited link */
   a:link {
     color: black;
@@ -232,7 +276,7 @@ h1, h3, h4, h5, h6 {
 
  /* Mouse over link */
   a:hover {
-    color: #e1ad01
+    color: #e1ad01;
   }
 
  /* Selected link */
@@ -244,10 +288,6 @@ h1, h3, h4, h5, h6 {
 
 #index {
 	background-color: $bg-colour-ltpink;
-	margin-left: 10%;
-	margin-right: 10%;
-	margin-top: 5%;
-	margin-bottom: 5% 
 }
 
 	.container-quote {	
@@ -351,15 +391,12 @@ h1, h3, h4, h5, h6 {
 
 #Essay {
 	background-color: $bg-colour-ltgreen;
-	margin-left: 10%;
-	margin-right: 10%;
-	margin-top: 5%;
-	margin-bottom: 5% 
 }
 
 	.essaypagetitle {
 		font-family: 'Autography', sans-serif;
 		text-align: center;
+		margin-top: 25px;
 
 		@include responsive(2000px) {
 			@include ET2000();
@@ -389,10 +426,6 @@ h1, h3, h4, h5, h6 {
 
 #citations  {
 	background-color: $bg-colour-mdgreen;
-	margin-left: 10%;
-	margin-right: 10%;
-	margin-top: 5%;
-	margin-bottom: 5% 
 }
 
 	.citationstitle {
@@ -425,7 +458,7 @@ h1, h3, h4, h5, h6 {
 
 
 //Navigation Subpages 
-.navsb{
+#navsb {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -463,7 +496,7 @@ h1, h3, h4, h5, h6 {
 
 
 	.hr {
-		border-top: 3px solid #000000;
+		border-top: 3px solid hotpink;
 		width: 50px;	
 		display: flex;
 		float:left;
