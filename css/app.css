@@ -33,7 +33,7 @@ Webtext Stylesheet
 @font-face {
   font-family: 'Tropical';
   src: url("../fonts/tropical_avenue/Tropical Avenue Personal Use Only.ttf") format("opentype"); }
-/* line 219, ../scss/app.scss */
+/* line 239, ../scss/app.scss */
 .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../media/image/bachabazi_bycodeincat-deviantart.jpg");
   height: 50vh;
@@ -50,7 +50,7 @@ Webtext Stylesheet
   top: 0;
   left: 0; }
 
-/* line 237, ../scss/app.scss */
+/* line 257, ../scss/app.scss */
 .hero-text {
   text-align: left;
   position: absolute;
@@ -60,112 +60,112 @@ Webtext Stylesheet
   font-size: 10px;
   font-family: 'Creato', sans-serif; }
 
-/* line 248, ../scss/app.scss */
+/* line 268, ../scss/app.scss */
 #index, #Essay, #citations {
   margin-left: 10%;
   margin-right: 10%;
   margin-bottom: 5%; }
 
-/* line 254, ../scss/app.scss */
+/* line 274, ../scss/app.scss */
 p, h2 {
   font-family: 'Creato', sans-serif;
   font-size: 30px; }
 
-/* line 259, ../scss/app.scss */
+/* line 279, ../scss/app.scss */
 h1, h3, h4, h5 {
   font-family: 'Autography', sans-serif; }
 
-/* line 263, ../scss/app.scss */
+/* line 283, ../scss/app.scss */
 h6 {
   font-family: 'Creato', sans-serif; }
 
 /* Unvisited link */
-/* line 268, ../scss/app.scss */
+/* line 288, ../scss/app.scss */
 a:link {
   color: black; }
 
 /* Visited link */
-/* line 273, ../scss/app.scss */
+/* line 293, ../scss/app.scss */
 a:visited {
   color: hotpink; }
 
 /* Mouse over link */
-/* line 278, ../scss/app.scss */
+/* line 298, ../scss/app.scss */
 a:hover {
   color: #e1ad01; }
 
 /* Selected link */
-/* line 283, ../scss/app.scss */
+/* line 303, ../scss/app.scss */
 a:active {
   color: black; }
 
-/* line 289, ../scss/app.scss */
+/* line 309, ../scss/app.scss */
 #index {
   background-color: #f6e0f0; }
 
-/* line 293, ../scss/app.scss */
+/* line 313, ../scss/app.scss */
 .container-quote {
   font-family: 'Creato', sans-serif; }
   @media only screen and (max-width: 2000px) {
-    /* line 293, ../scss/app.scss */
+    /* line 313, ../scss/app.scss */
     .container-quote {
       font-size: 25px;
       padding-left: 45%; } }
   @media only screen and (max-width: 1100px) {
-    /* line 293, ../scss/app.scss */
+    /* line 313, ../scss/app.scss */
     .container-quote {
       font-size: 20px;
       padding-left: 45%; } }
   @media only screen and (max-width: 991px) {
-    /* line 293, ../scss/app.scss */
+    /* line 313, ../scss/app.scss */
     .container-quote {
       font-size: 18px;
       padding-left: 45%; } }
   @media only screen and (max-width: 767px) {
-    /* line 293, ../scss/app.scss */
+    /* line 313, ../scss/app.scss */
     .container-quote {
       font-size: 15px;
       padding-left: 45%; } }
   @media only screen and (max-width: 375px) {
-    /* line 293, ../scss/app.scss */
+    /* line 313, ../scss/app.scss */
     .container-quote {
       font-size: 10px;
       padding-left: 45%; } }
 
-/* line 318, ../scss/app.scss */
+/* line 338, ../scss/app.scss */
 .dottedborder {
   border-style: dotted none dotted none;
   text-align: center;
   font-family: 'Autography', sans-serif; }
   @media only screen and (max-width: 2000px) {
-    /* line 318, ../scss/app.scss */
+    /* line 338, ../scss/app.scss */
     .dottedborder {
       font-size: 100px; } }
   @media only screen and (max-width: 1100px) {
-    /* line 318, ../scss/app.scss */
+    /* line 338, ../scss/app.scss */
     .dottedborder {
       font-size: 80px; } }
   @media only screen and (max-width: 991px) {
-    /* line 318, ../scss/app.scss */
+    /* line 338, ../scss/app.scss */
     .dottedborder {
       font-size: 60px; } }
   @media only screen and (max-width: 767px) {
-    /* line 318, ../scss/app.scss */
+    /* line 338, ../scss/app.scss */
     .dottedborder {
       font-size: 40px; } }
   @media only screen and (max-width: 375px) {
-    /* line 318, ../scss/app.scss */
+    /* line 338, ../scss/app.scss */
     .dottedborder {
       font-size: 20px; } }
 
-/* line 349, ../scss/app.scss */
+/* line 368, ../scss/app.scss */
 .navhome, .navessay, .navsm, .navcitations, .navauthor {
   font-family: 'Creato', sans-serif;
   text-align: center;
   justify-content: center;
   border: solid; }
   @media only screen and (max-width: 2000px) {
-    /* line 349, ../scss/app.scss */
+    /* line 368, ../scss/app.scss */
     .navhome, .navessay, .navsm, .navcitations, .navauthor {
       font-size: 35px;
       width: 35%;
@@ -173,7 +173,7 @@ a:active {
       margin-left: 32%;
       margin-right: 32%; } }
   @media only screen and (max-width: 1100px) {
-    /* line 349, ../scss/app.scss */
+    /* line 368, ../scss/app.scss */
     .navhome, .navessay, .navsm, .navcitations, .navauthor {
       font-size: 27px;
       width: 35%;
@@ -181,103 +181,170 @@ a:active {
       margin-left: 32%;
       margin-right: 32%; } }
   @media only screen and (max-width: 991px) {
-    /* line 349, ../scss/app.scss */
+    /* line 368, ../scss/app.scss */
     .navhome, .navessay, .navsm, .navcitations, .navauthor {
       font-size: 25px;
       width: 35%;
       margin-left: 32%;
       margin-right: 32%; } }
   @media only screen and (max-width: 767px) {
-    /* line 349, ../scss/app.scss */
+    /* line 368, ../scss/app.scss */
     .navhome, .navessay, .navsm, .navcitations, .navauthor {
       font-size: 21px;
       margin-left: 32%;
       margin-right: 32%;
       width: 35%; } }
   @media only screen and (max-width: 375px) {
-    /* line 349, ../scss/app.scss */
+    /* line 368, ../scss/app.scss */
     .navhome, .navessay, .navsm, .navcitations, .navauthor {
       font-size: 19px;
       margin-left: 25%;
       margin-right: 25%; } }
 
-/* line 379, ../scss/app.scss */
+/* line 398, ../scss/app.scss */
 .vl {
   border-left: 3px solid #000000;
   height: 50px;
   margin-left: 50%; }
   @media only screen and (max-width: 375px) {
-    /* line 379, ../scss/app.scss */
+    /* line 398, ../scss/app.scss */
     .vl {
       margin-left: 42%; } }
 
-/* line 392, ../scss/app.scss */
+/* line 409, ../scss/app.scss */
+.essaywritingintro {
+  text-align: justify;
+  font-family: 'Creato', sans-serif; }
+  @media only screen and (max-width: 2000px) {
+    /* line 409, ../scss/app.scss */
+    .essaywritingintro {
+      font-size: 25px; } }
+  @media only screen and (max-width: 1100px) {
+    /* line 409, ../scss/app.scss */
+    .essaywritingintro {
+      font-size: 20px; } }
+  @media only screen and (max-width: 991px) {
+    /* line 409, ../scss/app.scss */
+    .essaywritingintro {
+      font-size: 18px; } }
+  @media only screen and (max-width: 767px) {
+    /* line 409, ../scss/app.scss */
+    .essaywritingintro {
+      font-size: 15px; } }
+  @media only screen and (max-width: 375px) {
+    /* line 409, ../scss/app.scss */
+    .essaywritingintro {
+      font-size: 10px; } }
+
+/* line 439, ../scss/app.scss */
 #Essay {
   background-color: #e4e8c7; }
 
-/* line 396, ../scss/app.scss */
+/* line 443, ../scss/app.scss */
 .essaypagetitle {
   font-family: 'Autography', sans-serif;
   text-align: center;
   margin-top: 25px; }
   @media only screen and (max-width: 2000px) {
-    /* line 396, ../scss/app.scss */
+    /* line 443, ../scss/app.scss */
     .essaypagetitle {
       font-size: 100px; } }
   @media only screen and (max-width: 1100px) {
-    /* line 396, ../scss/app.scss */
+    /* line 443, ../scss/app.scss */
     .essaypagetitle {
       font-size: 80px; } }
   @media only screen and (max-width: 991px) {
-    /* line 396, ../scss/app.scss */
+    /* line 443, ../scss/app.scss */
     .essaypagetitle {
       font-size: 60px; } }
   @media only screen and (max-width: 767px) {
-    /* line 396, ../scss/app.scss */
+    /* line 443, ../scss/app.scss */
     .essaypagetitle {
       font-size: 40px; } }
   @media only screen and (max-width: 375px) {
-    /* line 396, ../scss/app.scss */
+    /* line 443, ../scss/app.scss */
     .essaypagetitle {
       font-size: 20px; } }
 
-/* line 427, ../scss/app.scss */
+/* Hovering side navigation*/
+/* line 472, ../scss/app.scss */
+#mySidenav a {
+  position: fixed;
+  right: -480px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 500px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 50px 50px 0; }
+
+/* line 484, ../scss/app.scss */
+#mySidenav a:hover {
+  right: 0; }
+
+/* line 488, ../scss/app.scss */
+#Introduction {
+  top: 20px;
+  background-color: hotpink; }
+
+/* line 493, ../scss/app.scss */
+#sectionone {
+  top: 80px;
+  background-color: hotpink; }
+
+/* line 498, ../scss/app.scss */
+#sectiontwo {
+  top: 163px;
+  background-color: hotpink; }
+
+/* line 503, ../scss/app.scss */
+#boyofmyown {
+  top: 223px;
+  background-color: hotpink; }
+
+/* line 508, ../scss/app.scss */
+#sectionthree {
+  top: 283px;
+  background-color: hotpink; }
+
+/* line 515, ../scss/app.scss */
 #citations {
   background-color: #abccac; }
 
-/* line 431, ../scss/app.scss */
+/* line 519, ../scss/app.scss */
 .citationstitle {
   font-family: 'Autography', sans-serif;
   text-align: center;
   margin-top: 25px; }
   @media only screen and (max-width: 2000px) {
-    /* line 431, ../scss/app.scss */
+    /* line 519, ../scss/app.scss */
     .citationstitle {
       font-size: 100px; } }
   @media only screen and (max-width: 1100px) {
-    /* line 431, ../scss/app.scss */
+    /* line 519, ../scss/app.scss */
     .citationstitle {
       font-size: 80px; } }
   @media only screen and (max-width: 991px) {
-    /* line 431, ../scss/app.scss */
+    /* line 519, ../scss/app.scss */
     .citationstitle {
       font-size: 60px; } }
   @media only screen and (max-width: 767px) {
-    /* line 431, ../scss/app.scss */
+    /* line 519, ../scss/app.scss */
     .citationstitle {
       font-size: 40px; } }
   @media only screen and (max-width: 375px) {
-    /* line 431, ../scss/app.scss */
+    /* line 519, ../scss/app.scss */
     .citationstitle {
       font-size: 20px; } }
 
-/* line 461, ../scss/app.scss */
+/* line 549, ../scss/app.scss */
 #navsb {
   display: flex;
   justify-content: center;
   align-items: center; }
 
-/* line 467, ../scss/app.scss */
+/* line 555, ../scss/app.scss */
 .navhomesp, .navessaysp, .navsmsp, .navauthorsp, .navcitationssp {
   font-family: 'Creato', sans-serif;
   text-align: center;
@@ -285,32 +352,113 @@ a:active {
   border: solid;
   width: 15%; }
   @media only screen and (max-width: 2000px) {
-    /* line 467, ../scss/app.scss */
+    /* line 555, ../scss/app.scss */
     .navhomesp, .navessaysp, .navsmsp, .navauthorsp, .navcitationssp {
       font-size: 40px; } }
   @media only screen and (max-width: 1100px) {
-    /* line 467, ../scss/app.scss */
+    /* line 555, ../scss/app.scss */
     .navhomesp, .navessaysp, .navsmsp, .navauthorsp, .navcitationssp {
       font-size: 35px; } }
   @media only screen and (max-width: 991px) {
-    /* line 467, ../scss/app.scss */
+    /* line 555, ../scss/app.scss */
     .navhomesp, .navessaysp, .navsmsp, .navauthorsp, .navcitationssp {
       font-size: 25px; } }
   @media only screen and (max-width: 767px) {
-    /* line 467, ../scss/app.scss */
+    /* line 555, ../scss/app.scss */
     .navhomesp, .navessaysp, .navsmsp, .navauthorsp, .navcitationssp {
       font-size: 18px; } }
   @media only screen and (max-width: 375px) {
-    /* line 467, ../scss/app.scss */
+    /* line 555, ../scss/app.scss */
     .navhomesp, .navessaysp, .navsmsp, .navauthorsp, .navcitationssp {
       font-size: 10px; } }
 
-/* line 498, ../scss/app.scss */
+/* line 586, ../scss/app.scss */
 .hr {
   border-top: 3px solid hotpink;
   width: 50px;
   display: flex;
   float: left;
   margin-top: 0.75%; }
+
+/* Popup Box */
+/* line 597, ../scss/app.scss */
+#overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  filter: alpha(opacity=70);
+  -moz-opacity: 0.7;
+  -khtml-opacity: 0.7;
+  opacity: 0.7;
+  z-index: 100;
+  display: none; }
+
+/* line 611, ../scss/app.scss */
+.popup-content {
+  padding: 14px 10px;
+  line-height: 1.5; }
+
+/* line 615, ../scss/app.scss */
+.cnt223 a {
+  text-decoration: none; }
+
+/* line 618, ../scss/app.scss */
+.popup-onload {
+  margin: 0 auto;
+  display: none;
+  position: fixed;
+  z-index: 101;
+  top: 50%;
+  left: 50%;
+  margin-top: -300px;
+  margin-left: -300px; }
+
+/* line 628, ../scss/app.scss */
+.cnt223 {
+  min-width: 600px;
+  width: 600px;
+  min-height: 150px;
+  margin: 100px auto;
+  background: #f3f3f3;
+  position: relative;
+  z-index: 103;
+  padding: 15px 35px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px #000; }
+
+/* line 640, ../scss/app.scss */
+.cnt223 p {
+  clear: both;
+  color: #555555;
+  /* text-align: justify; */
+  font-size: 20px;
+  font-family: sans-serif; }
+
+/* line 647, ../scss/app.scss */
+.cnt223 p a {
+  color: #d91900;
+  font-weight: bold; }
+
+/* line 651, ../scss/app.scss */
+.cnt223 .x {
+  float: right;
+  height: 35px;
+  left: 22px;
+  position: relative;
+  top: -25px;
+  width: 34px; }
+
+/* line 659, ../scss/app.scss */
+.cnt223 .x:hover {
+  cursor: pointer; }
+
+/*YouTube Videos*/
+/* line 665, ../scss/app.scss */
+iframe {
+  display: block;
+  margin: 0 auto; }
 
 /*# sourceMappingURL=app.css.map */
