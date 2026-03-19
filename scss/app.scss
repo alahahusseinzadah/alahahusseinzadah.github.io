@@ -12,7 +12,7 @@ Webtext Stylesheet
 */
 
 /* div {
-			border: 2px solid black;
+			border: 2px solid black;-
 		} */
 
 
@@ -28,7 +28,7 @@ $bg-colour-ltgreen: #e4e8c7;
 // Medium Green
 $bg-colour-mdgreen: #abccac; 
 // Mint Green
-$bg-colour-mintgreen: #abccac; 
+$bg-colour-mintgreen: #c0c87a; 
 
 // Background Images
 @mixin backgroundimgbachabazi() {
@@ -284,6 +284,19 @@ h6 {
 	font-family: 'Creato', sans-serif;
  
 }
+
+.newthought {
+	font-variant-caps: all-small-caps;
+	font-size: 35px;
+	-webkit-text-stroke: 0.3px black;
+    text-stroke: 0.3px black;
+}
+
+
+i, em {
+            -webkit-text-stroke: 0.3px;
+            text-stroke: 0.3px;
+        }
  /* Unvisited link */
   a:link {
     color: black;
@@ -440,6 +453,7 @@ h6 {
 	background-color: $bg-colour-ltgreen;
 }
 
+
 	.essaypagetitle {
 		font-family: 'Autography', sans-serif;
 		text-align: center;
@@ -465,8 +479,13 @@ h6 {
 				@include ET375() 
 
 			}
+		
 }
 
+.video{
+	border-style: dotted;
+	border-width: 5px;
+}
 /* Hovering side navigation*/
 
 #mySidenav a {
@@ -479,6 +498,7 @@ h6 {
   font-size: 20px;
   color: white;
   border-radius: 0 50px 50px 0;
+	font-family: 'Creato', sans-serif;
 }
 
 #mySidenav a:hover {
@@ -544,6 +564,27 @@ h6 {
 }
 
 
+//Media page
+
+#media1  {
+	background-color: $bg-colour-mintgreen;
+}
+
+//Author page
+
+#author  {
+	background-color: $bg-colour-mdpink;
+}
+
+.aboutimage {
+		border-style: dotted;
+		border-width: 5px;
+}
+
+.authordottedborder{
+		text-align: center;
+}
+
 
 //Navigation Subpages 
 #navsb {
@@ -608,7 +649,7 @@ opacity: 0.7;
 z-index: 100;
 display: none;
 }
-.popup-content{
+.popup-content {
    padding: 14px 10px;
    line-height: 1.5;
 }
