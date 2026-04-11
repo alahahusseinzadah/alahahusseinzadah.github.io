@@ -1,34 +1,37 @@
 // Scss Document
 
+// Scss Document
+
 @charset "UTF-8";
 
 /* 
-The Librettists Who Wrote on Air
+The Musical Written on Air
 CMCT 6535: Digital Publication
 Winter 2026
-Author: AlAHA Husseinzadah
+Author: Alaha Husseinzadah
 
 Webtext Stylesheet
 */
-
-/* div {
-			border: 2px solid black;-
-		} */
 
 
 // Colour Palette
 // White
 $bg-colour-white: #ffffff;
-// Medium Pink
-$bg-colour-mdpink: #efd3e7;
 // Light Pink
 $bg-colour-ltpink: #f6e0f0;
+// Medium Pink
+$bg-colour-mdpink: #efd3e7;
+//Hot Pink
+$bg-colour-htpink: #f06ba8; 
 // Light Green
 $bg-colour-ltgreen: #e4e8c7; 
 // Medium Green
 $bg-colour-mdgreen: #abccac; 
 // Mint Green
 $bg-colour-mintgreen: #c0c87a; 
+// Yello
+$bg-colour-yellow: #e1ad01; 
+
 
 // Background Images
 @mixin backgroundimgbachabazi() {
@@ -37,133 +40,132 @@ $bg-colour-mintgreen: #c0c87a;
 
 //Chimamanda Ngozi Adichie Quote
 @mixin CNAquote2000() {
-	 	font-size: 25px;
-		padding-left: 45%;
+	font-size: 25px;
+	padding-left: 45%;
 }
 
 @mixin CNAquote1100() {
-	 	font-size: 20px;
-		padding-left: 45%;
+	font-size: 20px;
+	padding-left: 45%;
 }
 
 @mixin CNAquote991() {
-	 	font-size: 18px;
-		padding-left: 45%;
+	font-size: 18px;
+	padding-left: 45%;
 }
 
 @mixin CNAquote767() {
-	 	font-size: 15px;
-		padding-left: 45%;
+	font-size: 15px;
+	padding-left: 45%;
 }
 
 @mixin CNAquote375() {
-	 	font-size: 10px;
-		padding-left: 45%;
+	font-size: 10px;
+	padding-left: 45%;
 }
 
 @mixin ewritintro2000() {
-	 	font-size: 25px;
+	font-size: 25px;
 }
 
 @mixin ewritintro1100() {
-	 	font-size: 20px;
+	font-size: 20px;
 }
 
 @mixin ewritintro991() {
-	 	font-size: 18px;
+	font-size: 18px;
 }
 
 @mixin ewritintro767() {
-	 	font-size: 15px;
+	font-size: 15px;
 }
 
 @mixin ewritintro375() {
-	 	font-size: 10px;
+	font-size: 10px;
 }
 
 
 //Index Essay Title
 @mixin IET2000() {
-	 	font-size: 100px;
+	font-size: 100px;
 }
 
 @mixin IET1100() {
-	 	font-size: 80px;
+	font-size: 80px;
 
 }
 
 @mixin IET991() {
-	 	font-size: 60px;
+	font-size: 60px;
 }
 
 @mixin IET767() {
-	 	font-size: 40px;
+	font-size: 40px;
 }
 
 @mixin IET375() {
-	 	font-size: 20px;
+	font-size: 20px;
 }
 
 //Essay Title
 @mixin ET2000() {
-	 	font-size: 100px;
+	font-size: 100px;
 }
 
 @mixin ET1100() {
-	 	font-size: 80px;
+	font-size: 80px;
 
 }
 
 @mixin ET991() {
-	 	font-size: 60px;
+	font-size: 60px;
 }
 
 @mixin ET767() {
-	 	font-size: 40px;
+	font-size: 40px;
 }
 
 @mixin ET375() {
-	 	font-size: 20px;
+	font-size: 20px;
 }
-	
 
 //Nav homepage
 @mixin n2000() {
-	 	font-size: 35px;
-		width: 35%;
-		border: solid;
-		margin-left: 32%;
-		margin-right: 32%;	
+	font-size: 35px;
+	width: 35%;
+	border: solid;
+	margin-left: 32%;
+	margin-right: 32%;	
 }
 
 @mixin n1100() {
-	 	font-size: 27px;
-		width: 35%;
-		border: solid;
-		margin-left: 32%;
-		margin-right: 32%;
+	font-size: 27px;
+	width: 35%;
+	border: solid;
+	margin-left: 32%;
+	margin-right: 32%;
 
 }
 
 @mixin n991() {
-	 	font-size: 25px;
-		width: 35%;
-		margin-left: 32%;
-		margin-right: 32%;
+	font-size: 25px;
+	width: 35%;
+	margin-left: 32%;
+	margin-right: 32%;
 }
 
 
 @mixin n767() {
-	 	font-size: 21px;
- 		margin-left: 32%;
-		margin-right: 32%;
-		width: 35%;
+	font-size: 21px;
+	width: 35%;
+ 	margin-left: 32%;
+	margin-right: 32%;
 }
 
 @mixin n375() {
-	 	font-size: 19px;
-		margin-left: 25%;
-		margin-right: 25%;
+	font-size: 19px;
+	margin-left: 25%;
+	margin-right: 25%;
 }
 
 @mixin nb375() {
@@ -172,108 +174,80 @@ $bg-colour-mintgreen: #c0c87a;
 
 //Nav bar subpage
 @mixin navbarsub2000() {
-	 	font-size: 40px;
+	font-size: 40px;
 }
 
 @mixin navbarsub1100() {
-	 	font-size: 35px;
+	font-size: 35px;
 }
 
 @mixin navbarsub991 () {
-	 	font-size: 25px;
+	font-size: 25px;
 }
 
 
 @mixin navbarsub767() {
-	 	font-size: 18px;
+	font-size: 18px;
 }
 
-@mixin navbarsub375() {
-	 	font-size: 10px;
+@mixin navbarsub700() {
+	font-size: 10px;
 }
 
 @mixin responsive($maxWidth) {
-    @media only screen and (max-width: $maxWidth) {
-        @content;
-    }
+	@media only screen and (max-width: $maxWidth) {
+		@content;
 }
-
+}
 
 //Fonts
 //Headers fonts
 @font-face {
-  font-family: 'Autography';
-  src: url("../fonts/autography/Autography.otf") format("opentype"); }
+	font-family: 'Autography';
+	src: url("../fonts/autography/Autography.otf") format("opentype"); }
+
 
 @font-face {
-  font-family: 'Biro';
-  src: url("../fonts/biro_script/Biro_Script_reduced.otf") format("opentype"); }
-
-@font-face {
-  font-family: 'Creato';
+	font-family: 'Creato';
 	src: url("../fonts/creato_display/CreatoDisplay-Light.otf") format("opentype");}
-	
-@font-face {
-  font-family: 'Shorelines';
-  src: url("../fonts/shorelines_script/Shorelines Script Bold.otf") format("opentype"); }
 
-//Body fonts
-@font-face {
-  font-family: 'ComfortaLight';
-  src: url("../fonts/comfortaa/Comfortaa-Light.ttf") format("opentype"); }
-
-@font-face {
-  font-family: 'Jordan';
-  src: url("../fonts/kg_teacher_jordan/KGTeacherJordan.otf") format("opentype"); }
-
-@font-face {
-  font-family: 'Quicksand';
-  src: url("../fonts/quicksand/Quicksand_Light.otf") format("opentype"); }
-
-
-@font-face {
-  font-family: 'Tropical';
-  src: url("../fonts/tropical_avenue/Tropical Avenue Personal Use Only.ttf") format("opentype"); }
-
-
+// Banner All Pages
 .hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../media/image/bachabazi_bycodeincat-deviantart.jpg");
-    height: 50vh;
-    width: 100vw;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../media/image/bachabazi_bycodeincat-deviantart.jpg");
+	height: 50vh;
+	width: 100vw;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
 	margin-top: calc(-100vw + 50%);
-    margin-left: calc(-50vw + 50%);
-    margin-right: calc(-50vw + 50%);
-    margin-top: 0;
-    padding: 0;
-    top: 0;
-    left: 0;
+	margin-left: calc(-50vw + 50%);
+	margin-right: calc(-50vw + 50%);
+	margin-top: 0;
+	padding: 0;
+	top: 0;
+	left: 0;
 }
 
-
-.hero-text {
-    text-align: left;
-    position: absolute;
-    bottom: 20px;
-    left: 30px;
-    color: hotpink;
+.hero-text  {
+	text-align: left;
+	position: absolute;
+	bottom: 20px;
+	left: 30px;
+	color: $bg-colour-htpink;
 	font-size: 10px;
 	font-family: 'Creato', sans-serif;
 }
 
-
-#index, #Essay, #citations {
-	margin-left: 10%;
-	margin-right: 10%;
-	margin-bottom: 5% 
+main {
+	margin-left: 8%;
+	margin-right: 8%;
+	margin-bottom: 8%; 
 }
- 
+
 p, h2 {
-    font-family: 'Creato', sans-serif;
-    font-size: 30px;
+	font-family: 'Creato', sans-serif;
+	font-size: 30px;
 }
 
 h1, h3, h4, h5,  {
@@ -282,46 +256,89 @@ h1, h3, h4, h5,  {
 
 h6 {
 	font-family: 'Creato', sans-serif;
- 
 }
 
-.newthought {
-	font-variant-caps: all-small-caps;
-	font-size: 35px;
-	-webkit-text-stroke: 0.3px black;
-    text-stroke: 0.3px black;
+h7 
+ {
+	font-family: 'Creato', sans-serif;
+	font-size: 80px;
+	color: $bg-colour-htpink;
 }
-
 
 i, em {
-            -webkit-text-stroke: 0.3px;
-            text-stroke: 0.3px;
-        }
- /* Unvisited link */
-  a:link {
-    color: black;
-  }
+	webkit-text-stroke: 0.2px;
+	text-stroke: 0.2px;
+}
 
- /* Visited link */
-  a:visited {
-    color: hotpink;
-  }
+/* Unvisited link */
+a:link {
+	color: black;
+}
+
+/* Visited link */
+a:visited {
+	color: $bg-colour-htpink;
+}
 
  /* Mouse over link */
-  a:hover {
-    color: #e1ad01;
-  }
+a:hover {
+	color: $bg-colour-yellow;
+}
 
- /* Selected link */
-  a:active {
-    color: black;
-  }
+/* Selected link */
+a:active {
+	color: black;
+}
+
+//Navigation Subpages 
+#navsb {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+
+	.navhomesp, .navessaysp, .navsmsp, .navauthorsp, .navcitationssp {
+		font-family: 'Creato', sans-serif;
+		text-align: center;
+		float:left;
+		border: solid;
+		width: 15%;
+
+			@include responsive(2000px) {
+			@include navbarsub2000();
+			}
+
+			@include responsive(1100px) {
+				@include navbarsub1100();
+			}
+
+			@include responsive(991px) {
+				@include navbarsub991();
+			}
+
+			@include responsive(767px) {
+				@include navbarsub767() 
+			}
+
+			@include responsive(700px) {
+				@include navbarsub700() 
+
+			}
+}
+
+	.hr {
+		border-top: 3px solid $bg-colour-htpink;
+		width: 50px;	
+		display: flex;
+		float:left;
+		margin-top: 0.75%;
+
+}
+}
 
 //Index page
-
 #index {
 	background-color: $bg-colour-ltpink;
-}
 
 	.container-quote {	
 		font-family: 'Creato', sans-serif;
@@ -352,6 +369,8 @@ i, em {
 		border-style: dotted none dotted none;
 		text-align: center;
 		font-family: 'Autography', sans-serif;
+		margin-left: auto;
+		margin-right: auto;
 
 
 		@include responsive(2000px) {
@@ -376,8 +395,6 @@ i, em {
 			}
 	}
 
-
-
 	.navhome, .navessay, .navsm, .navcitations, .navauthor {
 		font-family: 'Creato', sans-serif;
 		text-align: center;
@@ -389,8 +406,8 @@ i, em {
 			@include n2000();
 		}
 			
-			@include responsive(1100px) {
-				@include n1100();
+		@include responsive(1100px) {
+			@include n1100();
 		}
 
 		@include responsive(991px) {
@@ -406,8 +423,6 @@ i, em {
 		}
 	}
 
-
-
 	.vl {
 		border-left: 3px solid #000000;
 		height: 50px;	
@@ -415,15 +430,441 @@ i, em {
 
 		@include responsive(375px) {
 			@include nb375();
-			}
+		}
+	}
+
+
+	.essaywritingintro p{
+	text-align: justify;
+	font-family: 'Creato', sans-serif;
+	font-size: inherit;
+
+		@include responsive(2000px) {
+			@include ewritintro2000();
+		}
+
+		@include responsive(1100px) {
+			@include ewritintro1100();
+		}
+
+		@include responsive(991px) {
+			@include ewritintro991();
+		}
+
+		@include responsive(767px) {
+			@include ewritintro767();
+		}
+
+		@include responsive(375px) {
+			@include ewritintro375();
+
+		}
+	}
+}
+//Index end
+
+
+
+//Essay page
+#Essay {
+	background-color: $bg-colour-ltgreen;
+	
+	.essaypagetitle {
+		font-family: 'Autography', sans-serif;
+		text-align: center;
+		margin-top: 25px;
+
+		@include responsive(2000px) {
+			@include ET2000();
+		}
+
+		@include responsive(1100px) {
+				@include ET1100();
+		}
+
+		@include responsive(991px) {
+				@include ET991();
+		}
+
+		@include responsive(767px) {
+				@include ET767() 
+		}
+
+		@include responsive(375px) {
+				@include ET375() 
+		}		
+	}	
+	
+	img {
+    max-width: 100%;
+	}
+	
+
+	.essaymain {
+		width: 50%;
+		margin-left: 5%;
+		margin-right: 5%;
+		margin-bottom: 5%;
+		max-width: 3000px;
+		counter-reset: sidenote-counter;
+	}
+	
+	.newthought {
+		font-variant-caps: all-small-caps;
+	}
+
+	.bquote {
+		border-style: none none none solid;
+		padding: 15px;
+		border-width: 5px;
+		margin-left: 40px;
+		font-family: 'Creato', sans-serif;
+	}
+
+// videos
+	.video {
+	cursor:pointer;
+	}
+
+// Hovering side navigation
+
+#mySidenav a {
+	position: fixed;
+	right: -400px;
+	transition: 0.3s;
+	padding: 15px;
+	width: 500px;
+	text-decoration: none;
+	font-size: 20px;
+	color: white;
+	border-radius: 0 50px 50px 0;
+	font-family: 'Creato', sans-serif;
+	z-index: 9999;
+}
+
+#mySidenav a:hover {
+	right: 0 !important;
+}
+
+#mySidenav a {
+	transition: color 0.3s;
+}
+
+#mySidenav a.active {
+	color: #000000 !important;
+	font-weight: bold;
+	background-color: $bg-colour-mdgreen !important;
+	border-radius: 4px;
+	right: -300px;	
+}
+
+	#Introduction{
+		top: 20px;
+		background-color: $bg-colour-htpink;
+	}
+
+	#sectionone {
+		top: 80px;
+		background-color: $bg-colour-htpink;
+	}
+
+	#InterviewSR {
+		top: 170px;
+		background-color: $bg-colour-yellow;
+	}
+
+	#sectiontwo {
+		top: 260px;
+		background-color:$bg-colour-htpink;
+	}
+
+	#sectionthree {
+		top: 320px;
+		background-color:$bg-colour-htpink;
+	}
+
+	#ABOMO {
+		top: 380px;
+		background-color:$bg-colour-yellow;
+	}
+
+	#sectionfour {
+		top: 440px;
+		background-color:$bg-colour-htpink;
+	}
+
+	#GBdance {
+		top: 500px;
+		background-color:$bg-colour-yellow
+	}
+
+	#sectionfive {
+		top: 560px;
+		background-color:$bg-colour-htpink;
+	}
+
+	#sectionsix {
+		top: 620px;
+		background-color:$bg-colour-htpink;
+	}
+
+	#sectionseven {
+		top: 680px;
+		background-color:$bg-colour-htpink;
+	}
+
+	#sectioneight {
+		top: 740px;
+		background-color:$bg-colour-htpink;
+	}
+
+// Sidenotes, margin notes, figures, captions ET
+	.sidenote,
+	.marginnote {
+		float: right;
+		clear: right;
+		margin-right: -70%;
+		width: 50%;
+		margin-top: 0.3rem;
+		margin-bottom: 0;
+		font-size: 1.1rem;
+		line-height: 1.3;
+		vertical-align: baseline;
+		position: relative;
+	}
+
+	blockquote .sidenote,
+	blockquote .marginnote {
+		margin-right: 5%;
+		min-width: 59%;
+		text-align: left;
+	}
+
+	div.fullwidth,
+	table.fullwidth {
+		width: 100%;
+	}
+
+	div.table-wrapper {
+		overflow-x: auto;
+	}
+
+
+	code, pre > code {
+		font-size: 1.0rem;
+		line-height: 1.42;
+		-webkit-text-size-adjust: 100%;
+	}
+
+	.sans > code {
+		font-size: 1.2rem;
+	}
+
+	h1 > code,
+	h2 > code,
+	h3 > code {
+		font-size: 0.80em;
+	}
+
+	.marginnote > code,
+	.sidenote > code {
+		font-size: 1rem;
+	}
+
+	pre > code {
+		font-size: 0.9rem;
+		width: 52.5%;
+		margin-left: 2.5%;
+		overflow-x: auto;
+		display: block;
+	}
+
+	pre.fullwidth > code {
+		width: 90%;
+	}
+
+	.fullwidth {
+		max-width: 100%;
+		clear:both;
+	}
+
+	input.margin-toggle {
+		display: none;
+	}
+
+	.iframe-wrapper {
+		position: relative;
+		padding-bottom: 56.25%; /* 16:9 */
+		padding-top: 25px;
+		height: 0;
+	}
+
+	.iframe-wrapper iframe {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+
+	@media (max-width: 760px) {
+	#essay{
+			width: 84%;
+			padding-left: 8%;
+			padding-right: 8%;
+		}
+
+		hr,
+		section > p,
+		section > footer,
+		section > table {
+			width: 100%;
+		}
+
+		pre > code {
+			width: 97%;
+		}
+
+		section > dl,
+		section > ol,
+		section > ul {
+			width: 90%;
 		}
 
 
-	.essaywritingintro {
-	  text-align: justify;
-	font-family: 'Creato', sans-serif;
+		blockquote {
+			margin-left: 1.5em;
+			margin-right: 0em;
+		}
 
-				@include responsive(2000px) {
+		blockquote p,
+		blockquote footer {
+			width: 100%;
+		}
+
+		label.margin-toggle:not(.sidenote-number) {
+			display: inline;
+		}
+
+		.sidenote,
+		.marginnote {
+			display: none;
+		}
+
+		.margin-toggle:checked + .sidenote,
+			.margin-toggle:checked + .marginnote {
+			display: block;
+			float: left;
+			left: 1rem;
+			clear: both;
+			width: 100%;
+			margin: 1rem 2.5%;
+			vertical-align: baseline;
+			position: relative;
+		}
+
+		label {
+			cursor: pointer;
+		}
+
+		div.table-wrapper,
+		table {
+			width: 100%;
+		}
+}
+}
+
+// Apology comments
+	* {
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+	}
+
+	.stack {
+		display: flex;
+		flex-direction: column;
+		gap: 12px;
+		max-width: 1000px;
+	}
+
+	.kcats {
+		display: flex;
+		flex-direction: column;
+		gap: 12px;
+		max-width: 1000px;
+	}
+
+	.img-card {
+		border-radius: 12px;
+		overflow: hidden;
+		opacity: 0;
+		transform: translateY(24px) scale(0.95);
+		transition: opacity 0.45s ease,
+		transform 0.45s cubic-bezier(0.34, 1.56, 0.64, 1);
+	}
+
+	.img-card2 {
+		border-radius: 12px;
+		overflow: hidden;
+		opacity: 0;
+		transform: translateY(24px) scale(0.95);
+		transition: opacity 0.45s ease,
+		transform 0.45s cubic-bezier(0.34, 1.56, 0.64, 1);
+	}
+
+	.img-card.visible {
+		opacity: 1;
+		transform: translateY(0) scale(1);
+	}
+
+	.img-card2.visible {
+		opacity: 1;
+		transform: translateY(0) scale(1);
+	}
+
+	.img-card img {
+		width: 100%;
+		aspect-ratio: 20 / 5;
+		object-fit: cover;
+		display: block;
+	}
+
+	.img-card2 img {
+		width: 100%;
+		aspect-ratio: 20 / 5;
+		object-fit: cover;
+		display: block;
+	}
+
+	.btn-row {
+		display: flex;
+		gap: 8px;
+		margin-top: 1.5rem;
+		align-items: center;
+	}
+
+	.btn-row1 {
+		display: flex;
+		gap: 8px;
+		margin-top: 1.5rem;
+		align-items: center;
+	}
+
+#progress {
+	font-size: 13px;
+	color: #999;
+}
+// Essay page end
+
+
+
+//Citations page
+#citations {
+	background-color: $bg-colour-mdgreen;
+	
+	p {
+			@include responsive(2000px) {
 				@include ewritintro2000();
 			}
 
@@ -444,97 +885,6 @@ i, em {
 
 			}
 	}
-
-
-
-//Essay page
-
-#Essay {
-	background-color: $bg-colour-ltgreen;
-}
-
-
-	.essaypagetitle {
-		font-family: 'Autography', sans-serif;
-		text-align: center;
-		margin-top: 25px;
-
-		@include responsive(2000px) {
-			@include ET2000();
-			}
-
-			@include responsive(1100px) {
-				@include ET1100();
-			}
-
-			@include responsive(991px) {
-				@include ET991();
-			}
-
-			@include responsive(767px) {
-				@include ET767() 
-			}
-
-			@include responsive(375px) {
-				@include ET375() 
-
-			}
-		
-}
-
-.video{
-	border-style: dotted;
-	border-width: 5px;
-}
-/* Hovering side navigation*/
-
-#mySidenav a {
-  position: fixed;
-  right: -480px;
-  transition: 0.3s;
-  padding: 15px;
-  width: 500px;
-  text-decoration: none;
-  font-size: 20px;
-  color: white;
-  border-radius: 0 50px 50px 0;
-	font-family: 'Creato', sans-serif;
-}
-
-#mySidenav a:hover {
-  right: 0;
-}
-
-#Introduction{
-  top: 20px;
-  background-color: hotpink;
-}
-
-#sectionone {
-  top: 80px;
-  background-color: hotpink;
-}
-
-#sectiontwo {
-  top: 163px;
-  background-color: hotpink;
-}
-
-#boyofmyown {
-	top: 223px;
-  background-color:hotpink
-}
-
-#sectionthree {
-  top: 283px;
-  background-color:hotpink
-}
-
-//Citations page
-
-#citations  {
-	background-color: $bg-colour-mdgreen;
-}
 
 	.citationstitle {
 		font-family: 'Autography', sans-serif;
@@ -562,18 +912,208 @@ i, em {
 
 			}
 }
+}
+//Citations page end
+
 
 
 //Media page
-
-#media1  {
+#media1 {
 	background-color: $bg-colour-mintgreen;
+
+.media1title { 
+	font-family: 'Autography', sans-serif;
+	text-align: center;
+	margin-top: 100px;
+	
+		@include responsive(2000px) {
+			@include ET2000();
+			}
+
+			@include responsive(1100px) {
+				@include ET1100();
+			}
+
+			@include responsive(991px) {
+				@include ET991();
+			}
+
+			@include responsive(767px) {
+				@include ET767() 
+			}
+
+			@include responsive(375px) {
+				@include ET375() 
+
+			}
 }
 
-//Author page
+// Lightbox
+	* {
+	box-sizing: border-box;
+	}
 
-#author  {
+	row > .column {
+		padding: 0 8px;
+	}
+
+	row:after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+
+	.column {
+		float: left;
+		width: 25%;
+	}
+
+/* The Modal (background) */
+	.modal {
+		display: none;
+		position: fixed;
+		z-index: 1;
+		padding-top: 100px;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		overflow: auto;
+		background-color: black;
+	}
+
+/* Modal Content */
+	.modal-content {
+		position: relative;
+		background-color: #000000;
+		margin: auto;
+		padding: 0;
+		width: 100%;
+		height: 100%;
+		max-width: 1200px;
+	}
+
+/* The Close Button */
+	.close {
+		color: white;
+		position: absolute;
+		top: 10px;
+		right: 25px;
+		font-size: 35px;
+		font-weight: bold;
+	}
+
+	.close:hover,
+	.close:focus {
+		color: #999;
+		text-decoration: none;
+		cursor: pointer;
+	}
+
+	.mySlides {
+		display: none;
+	}
+
+	.cursor {
+		cursor: pointer;
+	}
+
+/* Next & previous buttons */
+	.prev,
+	.next {
+		cursor: pointer;
+		position: absolute;
+		top: 50%;
+		width: auto;
+		padding: 16px;
+		margin-top: -50px;
+		color: white;
+		font-weight: bold;
+		font-size: 20px;
+		transition: 0.6s ease;
+		border-radius: 0 3px 3px 0;
+		user-select: none;
+		-webkit-user-select: none;
+	}
+
+	.next {
+		right: 0;
+		border-radius: 3px 0 0 3px;
+	}
+
+	.prev:hover,
+	.next:hover {
+		background-color: rgba(0, 0, 0, 0.8);
+	}
+
+	.numbertext {
+		color: #ffffff;
+		font-size: 12px;
+		padding: 8px 12px;
+		position: absolute;
+		top: 0;
+	}
+
+	.lightbox img {
+		margin-bottom: -4px;
+		align-content: center;
+		aspect-ratio: 36 / 40;
+	}
+
+	.caption-container {
+		text-align: center;
+		background-color: black;
+		padding: 2px 16px;
+		color: white;
+	}
+
+	.demo {
+		opacity: 0.6;
+	}
+
+	.active,
+	.demo:hover {
+		opacity: 1;
+	}
+
+	img.hover-shadow {
+		transition: 0.3s;
+	}
+
+	.hover-shadow:hover {
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	}
+	}
+// Media page end
+
+
+
+//Author page
+#author {
 	background-color: $bg-colour-mdpink;
+	
+	p {
+	
+			@include responsive(2000px) {
+				@include ewritintro2000();
+			}
+
+			@include responsive(1100px) {
+				@include ewritintro1100();
+			}
+
+			@include responsive(991px) {
+				@include ewritintro991();
+			}
+
+			@include responsive(767px) {
+				@include ewritintro767();
+			}
+
+			@include responsive(375px) {
+				@include ewritintro375();
+
+			}
 }
 
 .aboutimage {
@@ -584,126 +1124,127 @@ i, em {
 .authordottedborder{
 		text-align: center;
 }
-
-
-//Navigation Subpages 
-#navsb {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-
-}
-.navhomesp, .navessaysp, .navsmsp, .navauthorsp, .navcitationssp {
-		font-family: 'Creato', sans-serif;
-		text-align: center;
-		float:left;
-		border: solid;
-		width: 15%;
-
-	
-			@include responsive(2000px) {
-			@include navbarsub2000();
-			}
-
-			@include responsive(1100px) {
-				@include navbarsub1100();
-			}
-
-			@include responsive(991px) {
-				@include navbarsub991();
-			}
-
-			@include responsive(767px) {
-				@include navbarsub767() 
-			}
-
-			@include responsive(375px) {
-				@include navbarsub375() 
-
-			}
 }
 
-
-	.hr {
-		border-top: 3px solid hotpink;
-		width: 50px;	
-		display: flex;
-		float:left;
-		margin-top: 0.75%;
-
-}
-
-/* Popup Box */
-
+//Warning pop-up
 #overlay {
-position: fixed;
-top: 0;
-left: 0;
-width: 100%;
-height: 100%;
-background-color: #000;
-filter:alpha(opacity=70);
--moz-opacity:0.7;
--khtml-opacity: 0.7;
-opacity: 0.7;
-z-index: 100;
-display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: $bg-colour-ltpink;
+	filter: alpha(opacity=70);
+	-moz-opacity: 0.7;
+	-khtml-opacity: 0.7;
+	opacity: 0.7;
+	z-index: 100;
+	display: none;
 }
+
 .popup-content {
-   padding: 14px 10px;
-   line-height: 1.5;
-}
-.cnt223 a{
-text-decoration: none;
-}
-.popup-onload{
-margin: 0 auto;
-display: none;
-position: fixed;
-z-index: 101;
-top: 50%;
-left: 50%;
-margin-top: -300px;
-margin-left: -300px;
-}
-.cnt223{
-min-width: 600px;
-width: 600px;
-min-height: 150px;
-margin: 100px auto;
-background: #f3f3f3;
-position: relative;
-z-index: 103;
-padding: 15px 35px;
-border-radius: 5px;
-box-shadow: 0 2px 5px #000;
-}
-.cnt223 p{
-clear: both;
-    color: #555555;
-    /* text-align: justify; */
-    font-size: 20px;
-    font-family: sans-serif;
-}
-.cnt223 p a{
-color: #d91900;
-font-weight: bold;
-}
-.cnt223 .x{
-float: right;
-height: 35px;
-left: 22px;
-position: relative;
-top: -25px;
-width: 34px;
-}
-.cnt223 .x:hover{
-cursor: pointer;
+	padding: 14px 10px;
+	line-height: 1.5;
 }
 
+.cnt223 a {
+	text-decoration: none;
+}
 
-/*YouTube Videos*/
-iframe {
-  display: block;
-  margin: 0 auto;
+.popup-onload {
+	margin: 0 auto;
+	display: none;
+	position: fixed;
+	z-index: 101;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	margin-top: 0;
+	margin-left: 0;
+}
+
+.cnt223 {
+	min-width: 600px;
+	width: 600px;
+	min-height: 150px;
+	margin: 100px auto;
+	background: $bg-colour-white;
+	position: relative;
+	z-index: 103;
+	padding: 15px 35px;
+	border-radius: 5px;
+	box-shadow: 0 2px 5px #000000;
+}
+
+.cnt223 p {
+	clear: both;
+	color: #000000;
+	font-size: 20px;
+	font-family: sans-serif;
+}
+
+.cnt223 p a {
+	color: #d91900;
+	font-weight: bold;
+}
+
+.cnt223 .x {
+	float: right;
+	height: 35px;
+	left: 22px;
+	position: relative;
+	top: -25px;
+	width: 34px;
+}
+
+.cnt223 .x:hover {
+	cursor: pointer;
+}
+
+.close {
+	font-family: 'Creato', sans-serif;
+	font-size: 40px;
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+	.cnt223 {
+		min-width: unset;
+		width: 90vw;
+		padding: 12px 20px;
+		margin: 0;
+	}
+
+	.cnt223 p {
+		font-size: 17px;
+	}
+
+	.close {
+		font-size: 32px;
+	}
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+	.cnt223 {
+		width: 95vw;
+		padding: 10px 15px;
+		border-radius: 3px;
+	}
+
+	.cnt223 p {
+		font-size: 15px;
+	}
+
+	.popup-content {
+		padding: 10px 6px;
+	}
+
+	.close {
+		font-size: 28px;
+	}
+
+	.cnt223 .x {
+		top: -18px;
+	}
 }
