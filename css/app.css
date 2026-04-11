@@ -1,39 +1,17 @@
 /* 
-The Librettists Who Wrote on Air
+The Musical Written on Air
 CMCT 6535: Digital Publication
 Winter 2026
-Author: AlAHA Husseinzadah
+Author: Alaha Husseinzadah
 
 Webtext Stylesheet
 */
-/* div {
-			border: 2px solid black;-
-		} */
 @font-face {
   font-family: 'Autography';
   src: url("../fonts/autography/Autography.otf") format("opentype"); }
 @font-face {
-  font-family: 'Biro';
-  src: url("../fonts/biro_script/Biro_Script_reduced.otf") format("opentype"); }
-@font-face {
   font-family: 'Creato';
   src: url("../fonts/creato_display/CreatoDisplay-Light.otf") format("opentype"); }
-@font-face {
-  font-family: 'Shorelines';
-  src: url("../fonts/shorelines_script/Shorelines Script Bold.otf") format("opentype"); }
-@font-face {
-  font-family: 'ComfortaLight';
-  src: url("../fonts/comfortaa/Comfortaa-Light.ttf") format("opentype"); }
-@font-face {
-  font-family: 'Jordan';
-  src: url("../fonts/kg_teacher_jordan/KGTeacherJordan.otf") format("opentype"); }
-@font-face {
-  font-family: 'Quicksand';
-  src: url("../fonts/quicksand/Quicksand_Light.otf") format("opentype"); }
-@font-face {
-  font-family: 'Tropical';
-  src: url("../fonts/tropical_avenue/Tropical Avenue Personal Use Only.ttf") format("opentype"); }
-/* line 239, ../scss/app.scss */
 .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../media/image/bachabazi_bycodeincat-deviantart.jpg");
   height: 50vh;
@@ -50,380 +28,647 @@ Webtext Stylesheet
   top: 0;
   left: 0; }
 
-/* line 257, ../scss/app.scss */
 .hero-text {
   text-align: left;
   position: absolute;
   bottom: 20px;
   left: 30px;
-  color: hotpink;
+  color: #f06ba8;
   font-size: 10px;
   font-family: 'Creato', sans-serif; }
 
-/* line 268, ../scss/app.scss */
-#index, #Essay, #citations {
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-bottom: 5%; }
+main {
+  margin-left: 8%;
+  margin-right: 8%;
+  margin-bottom: 8%; }
 
-/* line 274, ../scss/app.scss */
 p, h2 {
   font-family: 'Creato', sans-serif;
   font-size: 30px; }
 
-/* line 279, ../scss/app.scss */
 h1, h3, h4, h5 {
   font-family: 'Autography', sans-serif; }
 
-/* line 283, ../scss/app.scss */
 h6 {
   font-family: 'Creato', sans-serif; }
 
-/* line 288, ../scss/app.scss */
-.newthought {
-  font-variant-caps: all-small-caps;
-  font-size: 35px;
-  -webkit-text-stroke: 0.3px black;
-  text-stroke: 0.3px black; }
+h7 {
+  font-family: 'Creato', sans-serif;
+  font-size: 80px;
+  color: #f06ba8; }
 
-/* line 296, ../scss/app.scss */
 i, em {
-  -webkit-text-stroke: 0.3px;
-  text-stroke: 0.3px; }
+  webkit-text-stroke: 0.2px;
+  text-stroke: 0.2px; }
 
 /* Unvisited link */
-/* line 301, ../scss/app.scss */
 a:link {
   color: black; }
 
 /* Visited link */
-/* line 306, ../scss/app.scss */
 a:visited {
-  color: hotpink; }
+  color: #f06ba8; }
 
 /* Mouse over link */
-/* line 311, ../scss/app.scss */
 a:hover {
   color: #e1ad01; }
 
 /* Selected link */
-/* line 316, ../scss/app.scss */
 a:active {
   color: black; }
 
-/* line 322, ../scss/app.scss */
-#index {
-  background-color: #f6e0f0; }
-
-/* line 326, ../scss/app.scss */
-.container-quote {
-  font-family: 'Creato', sans-serif; }
-  @media only screen and (max-width: 2000px) {
-    /* line 326, ../scss/app.scss */
-    .container-quote {
-      font-size: 25px;
-      padding-left: 45%; } }
-  @media only screen and (max-width: 1100px) {
-    /* line 326, ../scss/app.scss */
-    .container-quote {
-      font-size: 20px;
-      padding-left: 45%; } }
-  @media only screen and (max-width: 991px) {
-    /* line 326, ../scss/app.scss */
-    .container-quote {
-      font-size: 18px;
-      padding-left: 45%; } }
-  @media only screen and (max-width: 767px) {
-    /* line 326, ../scss/app.scss */
-    .container-quote {
-      font-size: 15px;
-      padding-left: 45%; } }
-  @media only screen and (max-width: 375px) {
-    /* line 326, ../scss/app.scss */
-    .container-quote {
-      font-size: 10px;
-      padding-left: 45%; } }
-
-/* line 351, ../scss/app.scss */
-.dottedborder {
-  border-style: dotted none dotted none;
-  text-align: center;
-  font-family: 'Autography', sans-serif; }
-  @media only screen and (max-width: 2000px) {
-    /* line 351, ../scss/app.scss */
-    .dottedborder {
-      font-size: 100px; } }
-  @media only screen and (max-width: 1100px) {
-    /* line 351, ../scss/app.scss */
-    .dottedborder {
-      font-size: 80px; } }
-  @media only screen and (max-width: 991px) {
-    /* line 351, ../scss/app.scss */
-    .dottedborder {
-      font-size: 60px; } }
-  @media only screen and (max-width: 767px) {
-    /* line 351, ../scss/app.scss */
-    .dottedborder {
-      font-size: 40px; } }
-  @media only screen and (max-width: 375px) {
-    /* line 351, ../scss/app.scss */
-    .dottedborder {
-      font-size: 20px; } }
-
-/* line 381, ../scss/app.scss */
-.navhome, .navessay, .navsm, .navcitations, .navauthor {
-  font-family: 'Creato', sans-serif;
-  text-align: center;
-  justify-content: center;
-  border: solid; }
-  @media only screen and (max-width: 2000px) {
-    /* line 381, ../scss/app.scss */
-    .navhome, .navessay, .navsm, .navcitations, .navauthor {
-      font-size: 35px;
-      width: 35%;
-      border: solid;
-      margin-left: 32%;
-      margin-right: 32%; } }
-  @media only screen and (max-width: 1100px) {
-    /* line 381, ../scss/app.scss */
-    .navhome, .navessay, .navsm, .navcitations, .navauthor {
-      font-size: 27px;
-      width: 35%;
-      border: solid;
-      margin-left: 32%;
-      margin-right: 32%; } }
-  @media only screen and (max-width: 991px) {
-    /* line 381, ../scss/app.scss */
-    .navhome, .navessay, .navsm, .navcitations, .navauthor {
-      font-size: 25px;
-      width: 35%;
-      margin-left: 32%;
-      margin-right: 32%; } }
-  @media only screen and (max-width: 767px) {
-    /* line 381, ../scss/app.scss */
-    .navhome, .navessay, .navsm, .navcitations, .navauthor {
-      font-size: 21px;
-      margin-left: 32%;
-      margin-right: 32%;
-      width: 35%; } }
-  @media only screen and (max-width: 375px) {
-    /* line 381, ../scss/app.scss */
-    .navhome, .navessay, .navsm, .navcitations, .navauthor {
-      font-size: 19px;
-      margin-left: 25%;
-      margin-right: 25%; } }
-
-/* line 411, ../scss/app.scss */
-.vl {
-  border-left: 3px solid #000000;
-  height: 50px;
-  margin-left: 50%; }
-  @media only screen and (max-width: 375px) {
-    /* line 411, ../scss/app.scss */
-    .vl {
-      margin-left: 42%; } }
-
-/* line 422, ../scss/app.scss */
-.essaywritingintro {
-  text-align: justify;
-  font-family: 'Creato', sans-serif; }
-  @media only screen and (max-width: 2000px) {
-    /* line 422, ../scss/app.scss */
-    .essaywritingintro {
-      font-size: 25px; } }
-  @media only screen and (max-width: 1100px) {
-    /* line 422, ../scss/app.scss */
-    .essaywritingintro {
-      font-size: 20px; } }
-  @media only screen and (max-width: 991px) {
-    /* line 422, ../scss/app.scss */
-    .essaywritingintro {
-      font-size: 18px; } }
-  @media only screen and (max-width: 767px) {
-    /* line 422, ../scss/app.scss */
-    .essaywritingintro {
-      font-size: 15px; } }
-  @media only screen and (max-width: 375px) {
-    /* line 422, ../scss/app.scss */
-    .essaywritingintro {
-      font-size: 10px; } }
-
-/* line 452, ../scss/app.scss */
-#Essay {
-  background-color: #e4e8c7; }
-
-/* line 457, ../scss/app.scss */
-.essaypagetitle {
-  font-family: 'Autography', sans-serif;
-  text-align: center;
-  margin-top: 25px; }
-  @media only screen and (max-width: 2000px) {
-    /* line 457, ../scss/app.scss */
-    .essaypagetitle {
-      font-size: 100px; } }
-  @media only screen and (max-width: 1100px) {
-    /* line 457, ../scss/app.scss */
-    .essaypagetitle {
-      font-size: 80px; } }
-  @media only screen and (max-width: 991px) {
-    /* line 457, ../scss/app.scss */
-    .essaypagetitle {
-      font-size: 60px; } }
-  @media only screen and (max-width: 767px) {
-    /* line 457, ../scss/app.scss */
-    .essaypagetitle {
-      font-size: 40px; } }
-  @media only screen and (max-width: 375px) {
-    /* line 457, ../scss/app.scss */
-    .essaypagetitle {
-      font-size: 20px; } }
-
-/* line 485, ../scss/app.scss */
-.video {
-  border-style: dotted;
-  border-width: 5px; }
-
-/* Hovering side navigation*/
-/* line 491, ../scss/app.scss */
-#mySidenav a {
-  position: fixed;
-  right: -480px;
-  transition: 0.3s;
-  padding: 15px;
-  width: 500px;
-  text-decoration: none;
-  font-size: 20px;
-  color: white;
-  border-radius: 0 50px 50px 0;
-  font-family: 'Creato', sans-serif; }
-
-/* line 504, ../scss/app.scss */
-#mySidenav a:hover {
-  right: 0; }
-
-/* line 508, ../scss/app.scss */
-#Introduction {
-  top: 20px;
-  background-color: hotpink; }
-
-/* line 513, ../scss/app.scss */
-#sectionone {
-  top: 80px;
-  background-color: hotpink; }
-
-/* line 518, ../scss/app.scss */
-#sectiontwo {
-  top: 163px;
-  background-color: hotpink; }
-
-/* line 523, ../scss/app.scss */
-#boyofmyown {
-  top: 223px;
-  background-color: hotpink; }
-
-/* line 528, ../scss/app.scss */
-#sectionthree {
-  top: 283px;
-  background-color: hotpink; }
-
-/* line 535, ../scss/app.scss */
-#citations {
-  background-color: #abccac; }
-
-/* line 539, ../scss/app.scss */
-.citationstitle {
-  font-family: 'Autography', sans-serif;
-  text-align: center;
-  margin-top: 25px; }
-  @media only screen and (max-width: 2000px) {
-    /* line 539, ../scss/app.scss */
-    .citationstitle {
-      font-size: 100px; } }
-  @media only screen and (max-width: 1100px) {
-    /* line 539, ../scss/app.scss */
-    .citationstitle {
-      font-size: 80px; } }
-  @media only screen and (max-width: 991px) {
-    /* line 539, ../scss/app.scss */
-    .citationstitle {
-      font-size: 60px; } }
-  @media only screen and (max-width: 767px) {
-    /* line 539, ../scss/app.scss */
-    .citationstitle {
-      font-size: 40px; } }
-  @media only screen and (max-width: 375px) {
-    /* line 539, ../scss/app.scss */
-    .citationstitle {
-      font-size: 20px; } }
-
-/* line 569, ../scss/app.scss */
-#media1 {
-  background-color: #c0c87a; }
-
-/* line 575, ../scss/app.scss */
-#author {
-  background-color: #efd3e7; }
-
-/* line 579, ../scss/app.scss */
-.aboutimage {
-  border-style: dotted;
-  border-width: 5px; }
-
-/* line 584, ../scss/app.scss */
-.authordottedborder {
-  text-align: center; }
-
-/* line 590, ../scss/app.scss */
 #navsb {
   display: flex;
   justify-content: center;
   align-items: center; }
+  #navsb .navhomesp, #navsb .navessaysp, #navsb .navsmsp, #navsb .navauthorsp, #navsb .navcitationssp {
+    font-family: 'Creato', sans-serif;
+    text-align: center;
+    float: left;
+    border: solid;
+    width: 15%; }
+    @media only screen and (max-width: 2000px) {
+      #navsb .navhomesp, #navsb .navessaysp, #navsb .navsmsp, #navsb .navauthorsp, #navsb .navcitationssp {
+        font-size: 40px; } }
+    @media only screen and (max-width: 1100px) {
+      #navsb .navhomesp, #navsb .navessaysp, #navsb .navsmsp, #navsb .navauthorsp, #navsb .navcitationssp {
+        font-size: 35px; } }
+    @media only screen and (max-width: 991px) {
+      #navsb .navhomesp, #navsb .navessaysp, #navsb .navsmsp, #navsb .navauthorsp, #navsb .navcitationssp {
+        font-size: 25px; } }
+    @media only screen and (max-width: 767px) {
+      #navsb .navhomesp, #navsb .navessaysp, #navsb .navsmsp, #navsb .navauthorsp, #navsb .navcitationssp {
+        font-size: 18px; } }
+    @media only screen and (max-width: 700px) {
+      #navsb .navhomesp, #navsb .navessaysp, #navsb .navsmsp, #navsb .navauthorsp, #navsb .navcitationssp {
+        font-size: 10px; } }
+  #navsb .hr {
+    border-top: 3px solid #f06ba8;
+    width: 50px;
+    display: flex;
+    float: left;
+    margin-top: 0.75%; }
 
-/* line 596, ../scss/app.scss */
-.navhomesp, .navessaysp, .navsmsp, .navauthorsp, .navcitationssp {
-  font-family: 'Creato', sans-serif;
-  text-align: center;
-  float: left;
-  border: solid;
-  width: 15%; }
-  @media only screen and (max-width: 2000px) {
-    /* line 596, ../scss/app.scss */
-    .navhomesp, .navessaysp, .navsmsp, .navauthorsp, .navcitationssp {
-      font-size: 40px; } }
-  @media only screen and (max-width: 1100px) {
-    /* line 596, ../scss/app.scss */
-    .navhomesp, .navessaysp, .navsmsp, .navauthorsp, .navcitationssp {
-      font-size: 35px; } }
-  @media only screen and (max-width: 991px) {
-    /* line 596, ../scss/app.scss */
-    .navhomesp, .navessaysp, .navsmsp, .navauthorsp, .navcitationssp {
-      font-size: 25px; } }
-  @media only screen and (max-width: 767px) {
-    /* line 596, ../scss/app.scss */
-    .navhomesp, .navessaysp, .navsmsp, .navauthorsp, .navcitationssp {
-      font-size: 18px; } }
-  @media only screen and (max-width: 375px) {
-    /* line 596, ../scss/app.scss */
-    .navhomesp, .navessaysp, .navsmsp, .navauthorsp, .navcitationssp {
-      font-size: 10px; } }
+#index {
+  background-color: #f6e0f0; }
+  #index .container-quote {
+    font-family: 'Creato', sans-serif; }
+    @media only screen and (max-width: 2000px) {
+      #index .container-quote {
+        font-size: 25px;
+        padding-left: 45%; } }
+    @media only screen and (max-width: 1100px) {
+      #index .container-quote {
+        font-size: 20px;
+        padding-left: 45%; } }
+    @media only screen and (max-width: 991px) {
+      #index .container-quote {
+        font-size: 18px;
+        padding-left: 45%; } }
+    @media only screen and (max-width: 767px) {
+      #index .container-quote {
+        font-size: 15px;
+        padding-left: 45%; } }
+    @media only screen and (max-width: 375px) {
+      #index .container-quote {
+        font-size: 10px;
+        padding-left: 45%; } }
+  #index .dottedborder {
+    border-style: dotted none dotted none;
+    text-align: center;
+    font-family: 'Autography', sans-serif;
+    margin-left: auto;
+    margin-right: auto; }
+    @media only screen and (max-width: 2000px) {
+      #index .dottedborder {
+        font-size: 100px; } }
+    @media only screen and (max-width: 1100px) {
+      #index .dottedborder {
+        font-size: 80px; } }
+    @media only screen and (max-width: 991px) {
+      #index .dottedborder {
+        font-size: 60px; } }
+    @media only screen and (max-width: 767px) {
+      #index .dottedborder {
+        font-size: 40px; } }
+    @media only screen and (max-width: 375px) {
+      #index .dottedborder {
+        font-size: 20px; } }
+  #index .navhome, #index .navessay, #index .navsm, #index .navcitations, #index .navauthor {
+    font-family: 'Creato', sans-serif;
+    text-align: center;
+    justify-content: center;
+    border: solid; }
+    @media only screen and (max-width: 2000px) {
+      #index .navhome, #index .navessay, #index .navsm, #index .navcitations, #index .navauthor {
+        font-size: 35px;
+        width: 35%;
+        border: solid;
+        margin-left: 32%;
+        margin-right: 32%; } }
+    @media only screen and (max-width: 1100px) {
+      #index .navhome, #index .navessay, #index .navsm, #index .navcitations, #index .navauthor {
+        font-size: 27px;
+        width: 35%;
+        border: solid;
+        margin-left: 32%;
+        margin-right: 32%; } }
+    @media only screen and (max-width: 991px) {
+      #index .navhome, #index .navessay, #index .navsm, #index .navcitations, #index .navauthor {
+        font-size: 25px;
+        width: 35%;
+        margin-left: 32%;
+        margin-right: 32%; } }
+    @media only screen and (max-width: 767px) {
+      #index .navhome, #index .navessay, #index .navsm, #index .navcitations, #index .navauthor {
+        font-size: 21px;
+        width: 35%;
+        margin-left: 32%;
+        margin-right: 32%; } }
+    @media only screen and (max-width: 375px) {
+      #index .navhome, #index .navessay, #index .navsm, #index .navcitations, #index .navauthor {
+        font-size: 19px;
+        margin-left: 25%;
+        margin-right: 25%; } }
+  #index .vl {
+    border-left: 3px solid #000000;
+    height: 50px;
+    margin-left: 50%; }
+    @media only screen and (max-width: 375px) {
+      #index .vl {
+        margin-left: 42%; } }
+  #index .essaywritingintro p {
+    text-align: justify;
+    font-family: 'Creato', sans-serif;
+    font-size: inherit; }
+    @media only screen and (max-width: 2000px) {
+      #index .essaywritingintro p {
+        font-size: 25px; } }
+    @media only screen and (max-width: 1100px) {
+      #index .essaywritingintro p {
+        font-size: 20px; } }
+    @media only screen and (max-width: 991px) {
+      #index .essaywritingintro p {
+        font-size: 18px; } }
+    @media only screen and (max-width: 767px) {
+      #index .essaywritingintro p {
+        font-size: 15px; } }
+    @media only screen and (max-width: 375px) {
+      #index .essaywritingintro p {
+        font-size: 10px; } }
 
-/* line 627, ../scss/app.scss */
-.hr {
-  border-top: 3px solid hotpink;
-  width: 50px;
+#Essay {
+  background-color: #e4e8c7; }
+  #Essay .essaypagetitle {
+    font-family: 'Autography', sans-serif;
+    text-align: center;
+    margin-top: 25px; }
+    @media only screen and (max-width: 2000px) {
+      #Essay .essaypagetitle {
+        font-size: 100px; } }
+    @media only screen and (max-width: 1100px) {
+      #Essay .essaypagetitle {
+        font-size: 80px; } }
+    @media only screen and (max-width: 991px) {
+      #Essay .essaypagetitle {
+        font-size: 60px; } }
+    @media only screen and (max-width: 767px) {
+      #Essay .essaypagetitle {
+        font-size: 40px; } }
+    @media only screen and (max-width: 375px) {
+      #Essay .essaypagetitle {
+        font-size: 20px; } }
+  #Essay img {
+    max-width: 100%; }
+  #Essay .essaymain {
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    max-width: 3000px;
+    counter-reset: sidenote-counter; }
+  #Essay .newthought {
+    font-variant-caps: all-small-caps; }
+  #Essay .bquote {
+    border-style: none none none solid;
+    padding: 15px;
+    border-width: 5px;
+    margin-left: 40px;
+    font-family: 'Creato', sans-serif; }
+  #Essay .video {
+    cursor: pointer; }
+  #Essay #mySidenav a {
+    position: fixed;
+    right: -400px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 500px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 50px 50px 0;
+    font-family: 'Creato', sans-serif;
+    z-index: 9999; }
+  #Essay #mySidenav a:hover {
+    right: 0 !important; }
+  #Essay #mySidenav a {
+    transition: color 0.3s; }
+  #Essay #mySidenav a.active {
+    color: #000000 !important;
+    font-weight: bold;
+    background-color: #abccac !important;
+    border-radius: 4px;
+    right: -300px; }
+  #Essay #Introduction {
+    top: 20px;
+    background-color: #f06ba8; }
+  #Essay #sectionone {
+    top: 80px;
+    background-color: #f06ba8; }
+  #Essay #InterviewSR {
+    top: 170px;
+    background-color: #e1ad01; }
+  #Essay #sectiontwo {
+    top: 260px;
+    background-color: #f06ba8; }
+  #Essay #sectionthree {
+    top: 320px;
+    background-color: #f06ba8; }
+  #Essay #ABOMO {
+    top: 380px;
+    background-color: #e1ad01; }
+  #Essay #sectionfour {
+    top: 440px;
+    background-color: #f06ba8; }
+  #Essay #GBdance {
+    top: 500px;
+    background-color: #e1ad01; }
+  #Essay #sectionfive {
+    top: 560px;
+    background-color: #f06ba8; }
+  #Essay #sectionsix {
+    top: 620px;
+    background-color: #f06ba8; }
+  #Essay #sectionseven {
+    top: 680px;
+    background-color: #f06ba8; }
+  #Essay #sectioneight {
+    top: 740px;
+    background-color: #f06ba8; }
+  #Essay .sidenote,
+  #Essay .marginnote {
+    float: right;
+    clear: right;
+    margin-right: -70%;
+    width: 50%;
+    margin-top: 0.3rem;
+    margin-bottom: 0;
+    font-size: 1.1rem;
+    line-height: 1.3;
+    vertical-align: baseline;
+    position: relative; }
+  #Essay blockquote .sidenote,
+  #Essay blockquote .marginnote {
+    margin-right: 5%;
+    min-width: 59%;
+    text-align: left; }
+  #Essay div.fullwidth,
+  #Essay table.fullwidth {
+    width: 100%; }
+  #Essay div.table-wrapper {
+    overflow-x: auto; }
+  #Essay code, #Essay pre > code {
+    font-size: 1.0rem;
+    line-height: 1.42;
+    -webkit-text-size-adjust: 100%; }
+  #Essay .sans > code {
+    font-size: 1.2rem; }
+  #Essay h1 > code,
+  #Essay h2 > code,
+  #Essay h3 > code {
+    font-size: 0.80em; }
+  #Essay .marginnote > code,
+  #Essay .sidenote > code {
+    font-size: 1rem; }
+  #Essay pre > code {
+    font-size: 0.9rem;
+    width: 52.5%;
+    margin-left: 2.5%;
+    overflow-x: auto;
+    display: block; }
+  #Essay pre.fullwidth > code {
+    width: 90%; }
+  #Essay .fullwidth {
+    max-width: 100%;
+    clear: both; }
+  #Essay input.margin-toggle {
+    display: none; }
+  #Essay .iframe-wrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    /* 16:9 */
+    padding-top: 25px;
+    height: 0; }
+  #Essay .iframe-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+  @media (max-width: 760px) {
+    #Essay #essay {
+      width: 84%;
+      padding-left: 8%;
+      padding-right: 8%; }
+    #Essay hr,
+    #Essay section > p,
+    #Essay section > footer,
+    #Essay section > table {
+      width: 100%; }
+    #Essay pre > code {
+      width: 97%; }
+    #Essay section > dl,
+    #Essay section > ol,
+    #Essay section > ul {
+      width: 90%; }
+    #Essay blockquote {
+      margin-left: 1.5em;
+      margin-right: 0em; }
+    #Essay blockquote p,
+    #Essay blockquote footer {
+      width: 100%; }
+    #Essay label.margin-toggle:not(.sidenote-number) {
+      display: inline; }
+    #Essay .sidenote,
+    #Essay .marginnote {
+      display: none; }
+    #Essay .margin-toggle:checked + .sidenote,
+    #Essay .margin-toggle:checked + .marginnote {
+      display: block;
+      float: left;
+      left: 1rem;
+      clear: both;
+      width: 100%;
+      margin: 1rem 2.5%;
+      vertical-align: baseline;
+      position: relative; }
+    #Essay label {
+      cursor: pointer; }
+    #Essay div.table-wrapper,
+    #Essay table {
+      width: 100%; } }
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+.stack {
   display: flex;
-  float: left;
-  margin-top: 0.75%; }
+  flex-direction: column;
+  gap: 12px;
+  max-width: 1000px; }
 
-/* Popup Box */
-/* line 638, ../scss/app.scss */
+.kcats {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 1000px; }
+
+.img-card {
+  border-radius: 12px;
+  overflow: hidden;
+  opacity: 0;
+  transform: translateY(24px) scale(0.95);
+  transition: opacity 0.45s ease, transform 0.45s cubic-bezier(0.34, 1.56, 0.64, 1); }
+
+.img-card2 {
+  border-radius: 12px;
+  overflow: hidden;
+  opacity: 0;
+  transform: translateY(24px) scale(0.95);
+  transition: opacity 0.45s ease, transform 0.45s cubic-bezier(0.34, 1.56, 0.64, 1); }
+
+.img-card.visible {
+  opacity: 1;
+  transform: translateY(0) scale(1); }
+
+.img-card2.visible {
+  opacity: 1;
+  transform: translateY(0) scale(1); }
+
+.img-card img {
+  width: 100%;
+  aspect-ratio: 20 / 5;
+  object-fit: cover;
+  display: block; }
+
+.img-card2 img {
+  width: 100%;
+  aspect-ratio: 20 / 5;
+  object-fit: cover;
+  display: block; }
+
+.btn-row {
+  display: flex;
+  gap: 8px;
+  margin-top: 1.5rem;
+  align-items: center; }
+
+.btn-row1 {
+  display: flex;
+  gap: 8px;
+  margin-top: 1.5rem;
+  align-items: center; }
+
+#progress {
+  font-size: 13px;
+  color: #999; }
+
+#citations {
+  background-color: #abccac; }
+  @media only screen and (max-width: 2000px) {
+    #citations p {
+      font-size: 25px; } }
+  @media only screen and (max-width: 1100px) {
+    #citations p {
+      font-size: 20px; } }
+  @media only screen and (max-width: 991px) {
+    #citations p {
+      font-size: 18px; } }
+  @media only screen and (max-width: 767px) {
+    #citations p {
+      font-size: 15px; } }
+  @media only screen and (max-width: 375px) {
+    #citations p {
+      font-size: 10px; } }
+  #citations .citationstitle {
+    font-family: 'Autography', sans-serif;
+    text-align: center;
+    margin-top: 25px; }
+    @media only screen and (max-width: 2000px) {
+      #citations .citationstitle {
+        font-size: 100px; } }
+    @media only screen and (max-width: 1100px) {
+      #citations .citationstitle {
+        font-size: 80px; } }
+    @media only screen and (max-width: 991px) {
+      #citations .citationstitle {
+        font-size: 60px; } }
+    @media only screen and (max-width: 767px) {
+      #citations .citationstitle {
+        font-size: 40px; } }
+    @media only screen and (max-width: 375px) {
+      #citations .citationstitle {
+        font-size: 20px; } }
+
+#media1 {
+  background-color: #c0c87a;
+  /* The Modal (background) */
+  /* Modal Content */
+  /* The Close Button */
+  /* Next & previous buttons */ }
+  #media1 .media1title {
+    font-family: 'Autography', sans-serif;
+    text-align: center;
+    margin-top: 100px; }
+    @media only screen and (max-width: 2000px) {
+      #media1 .media1title {
+        font-size: 100px; } }
+    @media only screen and (max-width: 1100px) {
+      #media1 .media1title {
+        font-size: 80px; } }
+    @media only screen and (max-width: 991px) {
+      #media1 .media1title {
+        font-size: 60px; } }
+    @media only screen and (max-width: 767px) {
+      #media1 .media1title {
+        font-size: 40px; } }
+    @media only screen and (max-width: 375px) {
+      #media1 .media1title {
+        font-size: 20px; } }
+  #media1 * {
+    box-sizing: border-box; }
+  #media1 row > .column {
+    padding: 0 8px; }
+  #media1 row:after {
+    content: "";
+    display: table;
+    clear: both; }
+  #media1 .column {
+    float: left;
+    width: 25%; }
+  #media1 .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: black; }
+  #media1 .modal-content {
+    position: relative;
+    background-color: #000000;
+    margin: auto;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    max-width: 1200px; }
+  #media1 .close {
+    color: white;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 35px;
+    font-weight: bold; }
+  #media1 .close:hover,
+  #media1 .close:focus {
+    color: #999;
+    text-decoration: none;
+    cursor: pointer; }
+  #media1 .mySlides {
+    display: none; }
+  #media1 .cursor {
+    cursor: pointer; }
+  #media1 .prev,
+  #media1 .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none; }
+  #media1 .next {
+    right: 0;
+    border-radius: 3px 0 0 3px; }
+  #media1 .prev:hover,
+  #media1 .next:hover {
+    background-color: rgba(0, 0, 0, 0.8); }
+  #media1 .numbertext {
+    color: #ffffff;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0; }
+  #media1 .lightbox img {
+    margin-bottom: -4px;
+    align-content: center;
+    aspect-ratio: 36 / 40; }
+  #media1 .caption-container {
+    text-align: center;
+    background-color: black;
+    padding: 2px 16px;
+    color: white; }
+  #media1 .demo {
+    opacity: 0.6; }
+  #media1 .active,
+  #media1 .demo:hover {
+    opacity: 1; }
+  #media1 img.hover-shadow {
+    transition: 0.3s; }
+  #media1 .hover-shadow:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+
+#author {
+  background-color: #efd3e7; }
+  @media only screen and (max-width: 2000px) {
+    #author p {
+      font-size: 25px; } }
+  @media only screen and (max-width: 1100px) {
+    #author p {
+      font-size: 20px; } }
+  @media only screen and (max-width: 991px) {
+    #author p {
+      font-size: 18px; } }
+  @media only screen and (max-width: 767px) {
+    #author p {
+      font-size: 15px; } }
+  @media only screen and (max-width: 375px) {
+    #author p {
+      font-size: 10px; } }
+  #author .aboutimage {
+    border-style: dotted;
+    border-width: 5px; }
+  #author .authordottedborder {
+    text-align: center; }
+
 #overlay {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #000;
+  background-color: #f6e0f0;
   filter: alpha(opacity=70);
   -moz-opacity: 0.7;
   -khtml-opacity: 0.7;
@@ -431,16 +676,13 @@ a:active {
   z-index: 100;
   display: none; }
 
-/* line 652, ../scss/app.scss */
 .popup-content {
   padding: 14px 10px;
   line-height: 1.5; }
 
-/* line 656, ../scss/app.scss */
 .cnt223 a {
   text-decoration: none; }
 
-/* line 659, ../scss/app.scss */
 .popup-onload {
   margin: 0 auto;
   display: none;
@@ -448,36 +690,32 @@ a:active {
   z-index: 101;
   top: 50%;
   left: 50%;
-  margin-top: -300px;
-  margin-left: -300px; }
+  transform: translate(-50%, -50%);
+  margin-top: 0;
+  margin-left: 0; }
 
-/* line 669, ../scss/app.scss */
 .cnt223 {
   min-width: 600px;
   width: 600px;
   min-height: 150px;
   margin: 100px auto;
-  background: #f3f3f3;
+  background: #ffffff;
   position: relative;
   z-index: 103;
   padding: 15px 35px;
   border-radius: 5px;
-  box-shadow: 0 2px 5px #000; }
+  box-shadow: 0 2px 5px #000000; }
 
-/* line 681, ../scss/app.scss */
 .cnt223 p {
   clear: both;
-  color: #555555;
-  /* text-align: justify; */
+  color: #000000;
   font-size: 20px;
   font-family: sans-serif; }
 
-/* line 688, ../scss/app.scss */
 .cnt223 p a {
   color: #d91900;
   font-weight: bold; }
 
-/* line 692, ../scss/app.scss */
 .cnt223 .x {
   float: right;
   height: 35px;
@@ -486,14 +724,41 @@ a:active {
   top: -25px;
   width: 34px; }
 
-/* line 700, ../scss/app.scss */
 .cnt223 .x:hover {
   cursor: pointer; }
 
-/*YouTube Videos*/
-/* line 706, ../scss/app.scss */
-iframe {
-  display: block;
-  margin: 0 auto; }
+.close {
+  font-family: 'Creato', sans-serif;
+  font-size: 40px; }
 
-/*# sourceMappingURL=app.css.map */
+/* Tablet */
+@media (max-width: 768px) {
+  .cnt223 {
+    min-width: unset;
+    width: 90vw;
+    padding: 12px 20px;
+    margin: 0; }
+
+  .cnt223 p {
+    font-size: 17px; }
+
+  .close {
+    font-size: 32px; } }
+/* Mobile */
+@media (max-width: 480px) {
+  .cnt223 {
+    width: 95vw;
+    padding: 10px 15px;
+    border-radius: 3px; }
+
+  .cnt223 p {
+    font-size: 15px; }
+
+  .popup-content {
+    padding: 10px 6px; }
+
+  .close {
+    font-size: 28px; }
+
+  .cnt223 .x {
+    top: -18px; } }
