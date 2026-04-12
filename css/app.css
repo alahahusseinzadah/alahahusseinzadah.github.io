@@ -23,7 +23,7 @@ Webtext Stylesheet
   margin-top: calc(-100vw + 50%);
   margin-left: calc(-50vw + 50%);
   margin-right: calc(-50vw + 50%);
-  margin-top: 0;
+  margin-top: -50px;
   padding: 0;
   top: 0;
   left: 0; }
@@ -591,7 +591,7 @@ a:active {
     color: #999;
     text-decoration: none;
     cursor: pointer; }
-  #media1 .mySlides {
+  #media1 .mySlides.active {
     display: none; }
   #media1 .cursor {
     cursor: pointer; }
