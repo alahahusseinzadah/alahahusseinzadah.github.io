@@ -161,7 +161,7 @@
 			<div class="popup-onload">
 			<div class="cnt223">
 			<div class="popup-content">
-				<a href="index.html" class="close">X</a>
+				<a href="media1.html" class="exit">X</a>
 <br/>
 	
     			<h7><strong>Warning!</strong></h7>
@@ -178,14 +178,13 @@
 	</div>
 	
 	
-		<script>
-		
+	<script>
 			$(function(){
 			var overlay = $('<div id="overlay"></div>');
 			overlay.show();
 			overlay.appendTo(document.body);
 			$('.popup-onload').show();
-			$('.close').click(function(){
+			$('.exit').click(function(){
 			$('.popup-onload').hide();
 			overlay.appendTo(document.body).remove();
 			return false;
