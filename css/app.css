@@ -272,10 +272,11 @@ a:active {
     z-index: 100; }
   #Essay #mySidenav a:hover {
     right: 0 !important; }
+  #Essay #mySidenav a:visited {
+    color: black; }
   #Essay #mySidenav a {
     transition: color 0.3s; }
   #Essay #mySidenav a.active {
-    color: #000000 !important;
     font-weight: bold;
     background-color: #abccac !important;
     border-radius: 4px;
