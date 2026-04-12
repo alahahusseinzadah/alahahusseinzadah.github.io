@@ -245,6 +245,10 @@ main {
 	margin-bottom: 8%; 
 }
 
+	.newthought {
+		font-variant-caps: all-small-caps;
+	}
+
 p, h2 {
 	font-family: 'Creato', sans-serif;
 	font-size: 30px;
@@ -507,10 +511,6 @@ a:active {
 		margin-bottom: 5%;
 		max-width: 3000px;
 		counter-reset: sidenote-counter;
-	}
-	
-	.newthought {
-		font-variant-caps: all-small-caps;
 	}
 
 	.bquote {
