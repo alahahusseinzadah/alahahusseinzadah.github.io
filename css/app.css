@@ -33,7 +33,7 @@ Webtext Stylesheet
   position: absolute;
   bottom: 20px;
   left: 30px;
-  color: #f06ba8;
+  color: #EC008C;
   font-size: 10px;
   font-family: 'Creato', sans-serif; }
 
@@ -71,11 +71,11 @@ a:link {
 
 /* Visited link */
 a:visited {
-  color: #f06ba8; }
+  color: #EC008C; }
 
 /* Mouse over link */
 a:hover {
-  color: #f06ba8; }
+  color: #EC008C; }
 
 /* Selected link */
 a:active {
@@ -107,7 +107,7 @@ a:active {
       #navsb .navhomesp, #navsb .navessaysp, #navsb .navsmsp, #navsb .navauthorsp, #navsb .navcitationssp {
         font-size: 10px; } }
   #navsb .hr {
-    border-top: 3px solid #f06ba8;
+    border-top: 3px solid #EC008C;
     width: 50px;
     display: flex;
     float: left;
@@ -282,40 +282,40 @@ a:active {
     right: -300px; }
   #Essay #Introduction {
     top: 20px;
-    background-color: #f06ba8; }
+    background-color: #EC008C; }
   #Essay #sectionone {
     top: 80px;
-    background-color: #f06ba8; }
+    background-color: #EC008C; }
   #Essay #InterviewSR {
     top: 170px;
     background-color: #e1ad01; }
   #Essay #sectiontwo {
     top: 260px;
-    background-color: #f06ba8; }
+    background-color: #EC008C; }
   #Essay #sectionthree {
     top: 320px;
-    background-color: #f06ba8; }
+    background-color: #EC008C; }
   #Essay #ABOMO {
     top: 380px;
     background-color: #e1ad01; }
   #Essay #sectionfour {
     top: 440px;
-    background-color: #f06ba8; }
+    background-color: #EC008C; }
   #Essay #GBdance {
     top: 500px;
     background-color: #e1ad01; }
   #Essay #sectionfive {
     top: 560px;
-    background-color: #f06ba8; }
+    background-color: #EC008C; }
   #Essay #sectionsix {
     top: 620px;
-    background-color: #f06ba8; }
+    background-color: #EC008C; }
   #Essay #sectionseven {
     top: 680px;
-    background-color: #f06ba8; }
+    background-color: #EC008C; }
   #Essay #sectioneight {
     top: 740px;
-    background-color: #f06ba8; }
+    background-color: #EC008C; }
   #Essay .sidenote,
   #Essay .marginnote {
     float: right;
@@ -579,7 +579,7 @@ a:active {
     height: 100%;
     max-width: 1200px; }
   #media1 .close {
-    color: #f06ba8;
+    color: #EC008C;
     font-family: 'Creato', sans-serif;
     position: absolute;
     top: 10px;
@@ -736,7 +736,7 @@ a:active {
 .warning {
   font-family: 'Creato', sans-serif;
   font-size: 80px;
-  color: #f06ba8; }
+  color: #EC008C; }
 
 /* Tablet */
 @media (max-width: 768px) {
