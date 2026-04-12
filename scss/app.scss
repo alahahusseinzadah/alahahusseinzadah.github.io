@@ -539,7 +539,7 @@ a:active {
 	color: white;
 	border-radius: 0 50px 50px 0;
 	font-family: 'Creato', sans-serif;
-	z-index: 9999;
+	z-index: 100;
 }
 
 #mySidenav a:hover {
@@ -555,7 +555,7 @@ a:active {
 	font-weight: bold;
 	background-color: $bg-colour-mdgreen !important;
 	border-radius: 4px;
-	right: -300px;	
+	right: -300px;
 }
 
 	#Introduction{
@@ -995,7 +995,8 @@ a:active {
 
 /* The Close Button */
 	.close {
-		color: white;
+		color: $bg-colour-htpink;
+		font-family: 'Creato', sans-serif;
 		position: absolute;
 		top: 10px;
 		right: 25px;
@@ -1155,7 +1156,7 @@ a:active {
 	margin: 0 auto;
 	display: none;
 	position: fixed;
-	z-index: 101;
+	z-index: 201;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
@@ -1201,7 +1202,7 @@ a:active {
 	cursor: pointer;
 }
 
-.close {
+.exit {
 	font-family: 'Creato', sans-serif;
 	font-size: 40px;
 }
