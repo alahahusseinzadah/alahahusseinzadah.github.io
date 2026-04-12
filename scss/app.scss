@@ -546,12 +546,14 @@ a:active {
 	right: 0 !important;
 }
 
+#mySidenav a:visited {
+	color: black;
+}
 #mySidenav a {
 	transition: color 0.3s;
 }
 
 #mySidenav a.active {
-	color: #000000 !important;
 	font-weight: bold;
 	background-color: $bg-colour-mdgreen !important;
 	border-radius: 4px;
