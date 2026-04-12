@@ -256,7 +256,7 @@ h1, h3, h4,  {
 
 h6 {
 	font-family: 'Creato', sans-serif;
-	justify-content: center;
+	text-align: center;
 }
 
 i, em {
@@ -267,7 +267,7 @@ i, em {
 // Audio
 	.audio-container{
 		display: flex;
-		justify-content: center; /* Centers horizontally */
+		justify-content: center;
 		align-items: center;
 	}
 
