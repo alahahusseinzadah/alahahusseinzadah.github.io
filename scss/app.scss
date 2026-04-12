@@ -250,25 +250,26 @@ p, h2 {
 	font-size: 30px;
 }
 
-h1, h3, h4, h5,  {
+h1, h3, h4,  {
 	font-family: 'Autography', sans-serif;
 }
 
 h6 {
 	font-family: 'Creato', sans-serif;
-}
-
-h7 
- {
-	font-family: 'Creato', sans-serif;
-	font-size: 80px;
-	color: $bg-colour-htpink;
+	justify-content: center;
 }
 
 i, em {
 	webkit-text-stroke: 0.2px;
 	text-stroke: 0.2px;
 }
+
+// Audio
+	.audio-container{
+		display: flex;
+		justify-content: center; /* Centers horizontally */
+		align-items: center;
+	}
 
 /* Unvisited link */
 a:link {
@@ -521,11 +522,11 @@ a:active {
 		font-family: 'Creato', sans-serif;
 	}
 
-// videos
+// Videos
 	.video {
-	cursor:pointer;
+		cursor:pointer;
 	}
-
+	
 // Hovering side navigation
 
 #mySidenav a {
@@ -1207,6 +1208,12 @@ a:active {
 	font-size: 40px;
 }
 
+.warning
+ {
+	font-family: 'Creato', sans-serif;
+	font-size: 80px;
+	color: $bg-colour-htpink;
+}
 /* Tablet */
 @media (max-width: 768px) {
 	.cnt223 {
