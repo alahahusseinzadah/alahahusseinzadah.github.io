@@ -51,7 +51,7 @@ h1, h3, h4 {
 
 h6 {
   font-family: 'Creato', sans-serif;
-  justify-content: center; }
+  text-align: center; }
 
 i, em {
   webkit-text-stroke: 0.2px;
@@ -60,7 +60,6 @@ i, em {
 .audio-container {
   display: flex;
   justify-content: center;
-  /* Centers horizontally */
   align-items: center; }
 
 /* Unvisited link */
